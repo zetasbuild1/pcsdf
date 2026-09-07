@@ -1,0 +1,157 @@
+.footer {
+  position: relative;
+  background-color: #0b241c;
+  color: #ffffff;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.leafDecorationLeft {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 220px;
+  height: 220px;
+  pointer-events: none;
+  opacity: 0.18;
+}
+
+.leafDecorationRight {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 240px;
+  height: 240px;
+  pointer-events: none;
+  opacity: 0.18;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 360px 140px 140px 1fr;
+  gap: 3.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkCol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.footerLink {
+  font-size: 0.825rem;
+  color: #a4c2b2;
+  transition: color 0.2s ease, transform 0.2s ease;
+  width: fit-content;
+}
+
+.footerLink:hover {
+  color: #ffffff;
+  transform: translateX(2px);
+}
+
+.socialCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.socialTitle {
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #d1e5db;
+  margin-bottom: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.socialIconBtn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.socialIconBtn:hover {
+  background-color: #1e533e;
+  border-color: #388a68;
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
+.bottomBar {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #82a392;
+}
+
+.motto {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  color: #82a392;
+  letter-spacing: 0.03em;
+}
+
+.leafIcon {
+  color: #55a878;
+}
+
+@media (max-width: 1024px) {
+  .topRow {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+  .socialCol {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding-top: 3.5rem;
+  }
+  .topRow {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .bottomBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}

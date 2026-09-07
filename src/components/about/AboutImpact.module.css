@@ -1,0 +1,143 @@
+.impactSection {
+  position: relative;
+  background-color: #fafbfa;
+  padding: 5.5rem 1.5rem;
+  border-bottom: 1px solid #edf2ee;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: 2.45rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #123326;
+  margin-bottom: 1.15rem;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 0.8875rem;
+  line-height: 1.7;
+  color: #4f6357;
+  margin-bottom: 2rem;
+}
+
+.viewImpactBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #164332;
+  color: #ffffff;
+  padding: 0.65rem 1.45rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: fit-content;
+  transition: all 0.2s ease;
+  margin-bottom: 3.5rem;
+}
+
+.viewImpactBtn:hover {
+  background-color: #1d5540;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 67, 50, 0.2);
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2ebe2;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.statIcon {
+  color: #236546;
+  margin-bottom: 0.6rem;
+}
+
+.statNumber {
+  font-family: var(--font-editorial);
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #123326;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+  font-variant-numeric: lining-nums;
+}
+
+.statLabel {
+  font-family: var(--font-body);
+  font-size: 0.775rem;
+  color: #55685d;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.rightCol {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3.3;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(20, 62, 49, 0.09);
+}
+
+.impactImage {
+  object-fit: cover;
+}
+
+.leafTopRight {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  width: 160px;
+  height: 160px;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .impactSection {
+    padding: 3.5rem 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .statsRow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem 1rem;
+  }
+}

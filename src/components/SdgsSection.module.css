@@ -1,0 +1,193 @@
+.sdgsSection {
+  background-color: #fafbfa;
+  padding: 5.5rem 1.5rem;
+  border-bottom: 1px solid #edf2ee;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #123326;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: #4f6357;
+  margin-bottom: 2rem;
+}
+
+.viewSdgsBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #164332;
+  color: #ffffff;
+  padding: 0.65rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: fit-content;
+  transition: all 0.2s ease;
+}
+
+.viewSdgsBtn:hover {
+  background-color: #1d5540;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 67, 50, 0.2);
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.topLinkWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.viewAllLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #143e31;
+  transition: all 0.2s ease;
+}
+
+.viewAllLink:hover {
+  color: #216a4b;
+  transform: translateX(3px);
+}
+
+.tilesWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sdgGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.55rem;
+  flex-grow: 1;
+}
+
+.sdgTile {
+  aspect-ratio: 1;
+  border-radius: 3px;
+  padding: 0.4rem 0.45rem 0.35rem 0.45rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+.sdgTile:hover {
+  transform: scale(1.06);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
+  z-index: 2;
+}
+
+.tileHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+  line-height: 1;
+}
+
+.sdgNumber {
+  font-size: 0.85rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.sdgName {
+  font-size: 0.44rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0.15rem 0;
+  color: #ffffff;
+}
+
+.globalGoalsBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.5rem;
+  shrink: 0;
+}
+
+.globalGoalsText {
+  font-size: 0.52rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #1a3328;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.15;
+}
+
+@media (max-width: 1080px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .tilesWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .sdgsSection {
+    padding: 3.5rem 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .sdgGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

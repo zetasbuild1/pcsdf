@@ -1,0 +1,72 @@
+.partnersSection {
+  background-color: #fafbfa;
+  padding: 4.5rem 1.5rem;
+  border-bottom: 1px solid #edf2ee;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.textCol {
+  max-width: 440px;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #123326;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #55685d;
+}
+
+.logosCol {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.partnerLogo {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  opacity: 0.75;
+  filter: grayscale(100%);
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+.partnerLogo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logosCol {
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+  }
+}

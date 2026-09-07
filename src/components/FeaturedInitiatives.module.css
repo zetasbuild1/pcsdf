@@ -1,0 +1,155 @@
+.initiativesSection {
+  background-color: #ffffff;
+  padding: 5.5rem 1.5rem;
+  border-bottom: 1px solid #edf2ee;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.topBar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #123326;
+}
+
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #143e31;
+  transition: all 0.2s ease;
+}
+
+.viewAll:hover {
+  color: #216a4b;
+  transform: translateX(3px);
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e7eee7;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(20, 62, 49, 0.08);
+  border-color: #d2e0d4;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #eef3ee;
+}
+
+.cardImage {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.04);
+}
+
+.cardBody {
+  padding: 1.25rem 1.25rem 1.4rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.categoryTag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #236345;
+  margin-bottom: 0.6rem;
+}
+
+.cardTitle {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #143023;
+  margin-bottom: 0.65rem;
+}
+
+.cardDesc {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: #53675c;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.cardLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #143e31;
+  transition: all 0.2s ease;
+  margin-top: auto;
+}
+
+.cardLink:hover {
+  color: #216a4b;
+  transform: translateX(3px);
+}
+
+@media (max-width: 1024px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .initiativesSection {
+    padding: 3.5rem 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
