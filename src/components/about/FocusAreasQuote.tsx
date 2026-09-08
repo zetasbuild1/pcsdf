@@ -9,13 +9,13 @@ export default function FocusAreasQuote() {
       <div className={styles.container}>
         {/* Left Column: Heading & CTA */}
         <div className={styles.leftCol}>
-          <span className="section-tag">WHAT WE DO</span>
+          <span className="section-tag">THE REGENERATIVE IMPERATIVE</span>
           <h2 className={styles.title}>Our Focus Areas</h2>
           <p className={styles.desc}>
-            We work across seven interconnected pillars to create lasting change
-            for people, communities and the planet.
+            We work across nine interconnected regenerative pillars and 30 systems
+            to steward planetary boundaries and safeguard future generations.
           </p>
-          <Link href="/#pillars" className={styles.exploreBtn}>
+          <Link href="/our-work" className={styles.exploreBtn}>
             <span>Explore Our Work</span>
             <ArrowRight size={15} />
           </Link>
@@ -65,9 +65,12 @@ export default function FocusAreasQuote() {
         {/* Right Column: Editorial Quote */}
         <div className={styles.rightCol}>
           <blockquote className={styles.quoteText}>
-            “Sustainable development is not just about the environment, it’s
-            about people, peace and prosperity — today and for tomorrow.”
+            “Did We Hear the Voices of the Poor at the Turn of the Century? If future generations,
+            nature, and the global commons cannot speak for themselves, who will speak for them?”
           </blockquote>
+          <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-emerald-900/80 font-mono">
+            — Chaitri (Chai) N. Hapugalle, Founder &amp; Director
+          </p>
         </div>
       </div>
     </section>

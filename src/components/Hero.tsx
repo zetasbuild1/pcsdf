@@ -82,22 +82,22 @@ export default function Hero() {
           <h1 className={styles.headline}>
             <span>Building Peace.</span>
             <span>Protecting Our Planet.</span>
-            <span>Shaping a Sustainable Future.</span>
+            <span>Governing Regenerative Futures.</span>
           </h1>
 
           <p className={styles.subheadline}>
-            We work at the intersection of peace, climate action and sustainable
-            development — empowering communities, strengthening partnerships and
-            advancing the Sustainable Development Goals.
+            Advancing peace-led, faith- and Indigenous-inspired, climate-friendly, and
+            regenerative governance in response to the global polycrisis — bridging
+            planetary boundaries, human dignity, and the shared global commons.
           </p>
 
           <div className={styles.buttonGroup}>
-            <a href="#work" className={styles.primaryBtn}>
+            <a href="/our-work" className={styles.primaryBtn}>
               <span>Explore Our Work</span>
               <ArrowRight size={16} />
             </a>
 
-            <a href="#partner" className={styles.outlineBtn}>
+            <a href="/contact" className={styles.outlineBtn}>
               <span>Partner With Us</span>
             </a>
           </div>

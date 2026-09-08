@@ -17,14 +17,14 @@ interface NewsFeaturedStoryProps {
 }
 
 export const DEFAULT_FEATURED_STORY = {
-  id: "coastal-reforestation",
-  category: "CLIMATE ACTION",
-  date: "Aug 28, 2025",
-  title: "Community-Led Reforestation Brings New Hope to Coastal Villages",
+  id: "board-of-peace-inaugural",
+  category: "PEACE & DIPLOMACY",
+  date: "Feb 20, 2026",
+  title: "Inaugural Meeting of the Board of Peace at US Institute of Peace in Washington, DC",
   excerpt:
-    "In partnership with local communities, PCSDF has launched a major reforestation initiative in coastal areas, helping to restore ecosystems, reduce disaster risks and create green livelihoods for vulnerable families.",
-  image: "/images/news-1.jpg",
-  href: "#coastal-reforestation",
+    "Examining the inaugural gathering of the Board of Peace and its far-reaching implications for regional conflict resolution, multilateral diplomacy, and the integration of peace accords into systemic climate and global commons governance.",
+  image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
+  href: "#board-of-peace-inaugural",
 };
 
 export default function NewsFeaturedStory({

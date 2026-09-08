@@ -5,28 +5,28 @@ import styles from "./NewsStories.module.css";
 
 const NEWS_ARTICLES = [
   {
-    image: "/images/news-1.jpg",
-    date: "Aug 28, 2025",
-    title: "Community-Led Reforestation Shows New Hope for Climate Resilience",
-    href: "#news-1",
+    image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
+    date: "Feb 20, 2026",
+    title: "Inaugural Meeting of the Board of Peace at US Institute of Peace in Washington, DC",
+    href: "/news",
   },
   {
-    image: "/images/news-2.jpg",
-    date: "Aug 18, 2025",
-    title: "Building Peace Through Local Partnerships",
-    href: "#news-2",
+    image: "/images/pcsdf/IMG_1963-819x1024.jpeg",
+    date: "Jan 15, 2026",
+    title: "Multidimensional Poverty: Reaffirming Kofi Annan's Global Call on Human Security",
+    href: "/news",
   },
   {
-    image: "/images/news-3.jpg",
-    date: "Aug 10, 2025",
-    title: "Small Actions, Big Impact: How Local Communities Lead Climate Solutions",
-    href: "#news-3",
+    image: "/images/pcsdf/IMG_0685-7-768x1024.jpeg",
+    date: "Dec 24, 2025",
+    title: "Four Years of PCSDF: From Keong Saik Road Launch to 30-System Global Architecture",
+    href: "/news",
   },
   {
-    image: "/images/news-4.jpg",
-    date: "Jul 22, 2025",
-    title: "Blue Economy Initiatives Gain Momentum in Coastal Regions",
-    href: "#news-4",
+    image: "/images/pcsdf/IMG_2711.jpeg",
+    date: "Nov 12, 2025",
+    title: "ACLED Conflict Index & Vulnerable Commons: Lessons from Landmark Peace Accords",
+    href: "/news",
   },
 ];
 
@@ -37,9 +37,9 @@ export default function NewsStories() {
         <div className={styles.topBar}>
           <div className={styles.headerText}>
             <span className="section-tag">LATEST INSIGHTS</span>
-            <h2 className={styles.title}>News & Stories</h2>
+            <h2 className={styles.title}>News & Strategic Briefings</h2>
           </div>
-          <a href="#news-all" className={styles.viewAll}>
+          <a href="/news" className={styles.viewAll}>
             <span>View All News</span>
             <ArrowRight size={14} />
           </a>

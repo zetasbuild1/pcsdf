@@ -4,23 +4,23 @@ import styles from "./WorkMethodology.module.css";
 const STEPS = [
   {
     num: "01",
-    title: "Community Listening & Needs Assessment",
-    desc: "We initiate every intervention by listening. Through participatory rural appraisals and village assemblies, we identify indigenous priorities, land tenure dynamics, and vulnerability flashpoints.",
+    title: "Systemic Polycrisis Diagnosis",
+    desc: "We listen across communities, Indigenous leaders, and policymakers to identify cascading risks across ecological boundaries, conflict lines, and economic vulnerabilities.",
   },
   {
     num: "02",
-    title: "Co-Designing Ecological Solutions",
-    desc: "We bridge traditional community wisdom with rigorous ecological science, satellite GIS mapping, and climate modeling to design interventions tailored to local micro-climates.",
+    title: "Constitutional Co-Design & Taxonomy Alignment",
+    desc: "We bridge ancestral knowledge, faith traditions, and scientific data with the 30-system architecture and 332-sector taxonomy to create integrated governance blueprints.",
   },
   {
     num: "03",
-    title: "Grassroots Implementation & Capacity",
-    desc: "Field execution is led by local stewardship committees, women's cooperatives, and youth leaders. We provide training, nursery infrastructure, and sustainable management protocols.",
+    title: "Intergenerational Capital & Policy Mobilization",
+    desc: "We align public, private, and philanthropic finance mechanisms with peace, climate-friendliness, and regeneration to power durable multi-stakeholder programs.",
   },
   {
     num: "04",
-    title: "Monitoring, Verification & Open Data",
-    desc: "Every initiative undergoes multi-year biological metric tracking, survivability audits, and socio-economic evaluations, with findings openly shared through our Knowledge Hub.",
+    title: "The Hive: Monitoring, Learning & Stewardship",
+    desc: "Deploying our integrated MEAL Hive to evaluate progress and emerging risks across all systems, sectors, scales, stakeholders, and generations.",
   },
 ];
 
@@ -29,12 +29,11 @@ export default function WorkMethodology() {
     <section className={styles.section} id="methodology">
       <div className={styles.container}>
         <div className={styles.headerText}>
-          <span className={styles.tag}>OUR PROGRAMMATIC APPROACH</span>
-          <h2 className={styles.title}>How We Turn Vision into Impact</h2>
+          <span className={styles.tag}>CONSTITUTIONAL OPERATING SYSTEM</span>
+          <h2 className={styles.title}>From Policy to Intergenerational Action</h2>
           <p className={styles.subtitle}>
-            True sustainability cannot be imposed from the top down. Our
-            proven four-stage methodology ensures deep community ownership and
-            inter-generational longevity.
+            Governing sustainability in an era of polycrisis requires more than checklists.
+            Our four-stage framework translates constitutional principles into systemic, measurable stewardship.
           </p>
         </div>
 

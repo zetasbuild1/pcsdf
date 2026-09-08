@@ -23,34 +23,34 @@ export default function WorkHero() {
 
       <div className={styles.container}>
         <div className={styles.contentCol}>
-          <span className={styles.tag}>OUR WORK &amp; INITIATIVES</span>
+          <span className={styles.tag}>THE PFICF-RSSDF FRAMEWORK</span>
           <h1 className={styles.headline}>
-            Empowering Communities.<br />
-            Restoring Ecosystems.<br />
-            Sustaining Peace.
+            Governing Sustainability<br />
+            in an Era of Polycrisis.<br />
+            Peace-Led Regeneration.
           </h1>
           <p className={styles.subtitle}>
-            We operate at the nexus of peacebuilding, climate action, and
-            sustainable development — translating global sustainability
-            commitments into tangible, community-led impact on the ground.
+            Building directly on the Brundtland Commission (&quot;Our Common Future&quot;), the Universal
+            Declaration of Human Rights, and the UN 2030 Agenda (17 SDGs) — transforming siloed
+            development targets into a unified 30-system constitutional operating system.
           </p>
 
           <div className={styles.badgesRow}>
             <div className={styles.badgeItem}>
               <Leaf size={15} className={styles.badgeIcon} aria-hidden="true" />
-              <span>7 Core Pillars</span>
+              <span>9 Regenerative Pillars</span>
             </div>
             <div className={styles.badgeItem}>
               <Target size={15} className={styles.badgeIcon} aria-hidden="true" />
-              <span>10 UN SDGs Aligned</span>
+              <span>30-System Architecture</span>
             </div>
             <div className={styles.badgeItem}>
               <Users size={15} className={styles.badgeIcon} aria-hidden="true" />
-              <span>50+ Local Communities</span>
+              <span>332-Sector Taxonomy</span>
             </div>
             <div className={styles.badgeItem}>
               <Droplets size={15} className={styles.badgeIcon} aria-hidden="true" />
-              <span>120k+ Seedlings Planted</span>
+              <span>193 UN Member States</span>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@ export default function WorkHero() {
         {/* Right script calligraphy accent */}
         <div className={styles.scriptBox}>
           <span className={styles.scriptText}>
-            Peace with Nature.<br />
-            Peace among People.
+            From Managing Targets<br />
+            to Governing Systems.
           </span>
         </div>
       </div>

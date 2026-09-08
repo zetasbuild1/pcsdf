@@ -6,24 +6,24 @@ import styles from "./AboutImpact.module.css";
 
 const IMPACT_STATS = [
   {
-    icon: <Leaf size={20} strokeWidth={1.75} />,
-    number: "50+",
-    label: "Communities Supported",
-  },
-  {
-    icon: <Sprout size={20} strokeWidth={1.75} />,
-    number: "25+",
-    label: "Projects Implemented",
-  },
-  {
     icon: <Globe2 size={20} strokeWidth={1.75} />,
-    number: "15+",
-    label: "Countries Collaborated",
+    number: "193+",
+    label: "UN States Spanned",
   },
   {
     icon: <Sparkles size={20} strokeWidth={1.75} />,
-    number: "100K+",
-    label: "People Reached",
+    number: "30",
+    label: "System Architectures",
+  },
+  {
+    icon: <Leaf size={20} strokeWidth={1.75} />,
+    number: "332",
+    label: "Taxonomy Sectors",
+  },
+  {
+    icon: <Sprout size={20} strokeWidth={1.75} />,
+    number: "9",
+    label: "Regenerative Pillars",
   },
 ];
 
@@ -33,17 +33,18 @@ export default function AboutImpact() {
       <div className={styles.container}>
         {/* Left Column: Narrative & Stats */}
         <div className={styles.leftCol}>
-          <span className="section-tag">OUR IMPACT</span>
-          <h2 className={styles.title}>Real People. Lasting Change.</h2>
+          <span className="section-tag">GLOBAL SYSTEMIC REACH</span>
+          <h2 className={styles.title}>Systemic Stewardship. Measurable Futures.</h2>
           <p className={styles.description}>
-            Our work touches lives — from strengthening local livelihoods to
-            restoring ecosystems and supporting climate resilience. We measure
-            our impact not only in numbers, but in healthier communities,
-            greener landscapes and a more peaceful future.
+            Our footprint is global and systemic. Through a peace-led, faith- and Indigenous-inspired
+            network-of-networks, PCSDF connects partners across 193 UN Member States, two Observer
+            States, and key territories. Our impact is measured not only in ecological indicators,
+            but in reinforced governance, empowered communities, and intergenerational stewardship of Earth
+            and shared cosmic commons.
           </p>
 
-          <Link href="/#impact" className={styles.viewImpactBtn}>
-            <span>View Our Impact</span>
+          <Link href="/our-work" className={styles.viewImpactBtn}>
+            <span>Explore The Framework</span>
             <ArrowRight size={15} />
           </Link>
 
@@ -87,8 +88,8 @@ export default function AboutImpact() {
 
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/about/about-girl.jpg"
-              alt="Real People. Lasting Change. - PCSDF"
+              src="/images/pcsdf/IMG_2768-1024x576.jpeg"
+              alt="Systemic Stewardship and Global Impact - PCSDF"
               fill
               className={styles.impactImage}
               sizes="(max-width: 1024px) 100vw, 50vw"

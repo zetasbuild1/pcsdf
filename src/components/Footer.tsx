@@ -158,11 +158,34 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Registered Organization Details Bar */}
+        <div className="mt-8 pt-6 border-t border-emerald-900/40 text-xs text-emerald-300/70 flex flex-col md:flex-row justify-between gap-4 leading-relaxed">
+          <div>
+            <p className="font-semibold text-emerald-200">
+              The Peace-Led Climate-Friendly Sustainable Development Forum (PCSDF)
+            </p>
+            <p className="mt-0.5">
+              Registered in Singapore as a Company Limited by Guarantee (Incorporated 24 Dec 2021)
+            </p>
+            <p className="text-emerald-400/80">
+              60 Paya Lebar Road, #06-28 Paya Lebar Square, Singapore 409051
+            </p>
+          </div>
+          <div className="text-left md:text-right">
+            <p>
+              Direct WhatsApp: <a href="https://wa.me/6580701667" className="underline hover:text-white">+65 8070 1667</a> | Tel: +65 9724 0021
+            </p>
+            <p>
+              Email: <a href="mailto:chapugalle@pcsdf.org" className="underline hover:text-white">chapugalle@pcsdf.org</a> | <a href="mailto:chaihapugalle@gmail.com" className="underline hover:text-white">chaihapugalle@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
-          <p className={styles.copyright}>© 2025 PCSDF. All rights reserved.</p>
+          <p className={styles.copyright}>© {new Date().getFullYear()} PCSDF. All rights reserved.</p>
           <div className={styles.motto}>
-            <span>Peace • People • Planet • Prosperity</span>
+            <span>Peace-Led • Climate-Friendly • Regenerative Futures</span>
             <Leaf size={14} className={styles.leafIcon} />
           </div>
         </div>

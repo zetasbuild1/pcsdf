@@ -76,11 +76,11 @@ export default function ContactForm() {
         <div className={styles.layout}>
           {/* Left: Contact Form Card */}
           <div className={styles.formCard}>
-            <span className={styles.tag}>SEND US A MESSAGE</span>
-            <h2 className={styles.formTitle}>How Can We Help You?</h2>
+            <span className={styles.tag}>GLOBAL CALL FOR ACTION</span>
+            <h2 className={styles.formTitle}>Begin Your Extraordinary Journey</h2>
             <p className={styles.formSubtitle}>
-              Please provide details about your inquiry and our team will get in
-              touch with you promptly.
+              “If our hopes of building a better and safer world are to become more than wishful thinking,
+              we will need the engagement of volunteers more than ever.” — Kofi Annan
             </p>
 
             {isSubmitted ? (
@@ -148,7 +148,7 @@ export default function ContactForm() {
                 <div className={styles.rowTwo}>
                   <div className={styles.fieldGroup}>
                     <label htmlFor="contact-phone" className={styles.label}>
-                      Phone Number (Optional)
+                      Phone / WhatsApp Number
                     </label>
                     <div className={styles.inputWrapper}>
                       <Phone size={16} className={styles.inputIcon} aria-hidden="true" />
@@ -158,7 +158,7 @@ export default function ContactForm() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="+65 8070 1667"
                         className={styles.input}
                       />
                     </div>
@@ -187,7 +187,7 @@ export default function ContactForm() {
                 <div className={styles.rowTwo}>
                   <div className={styles.fieldGroup}>
                     <label htmlFor="contact-topic" className={styles.label}>
-                      Inquiry Category <span className={styles.required}>*</span>
+                      Role / Inquiry Category <span className={styles.required}>*</span>
                     </label>
                     <div className={styles.inputWrapper}>
                       <select
@@ -198,11 +198,11 @@ export default function ContactForm() {
                         className={styles.select}
                       >
                         <option value="general">General Inquiry</option>
-                        <option value="partnerships">Partnership &amp; Funding</option>
-                        <option value="research">Research &amp; Knowledge Hub</option>
-                        <option value="community">Community Initiatives</option>
-                        <option value="media">Media &amp; Press Relations</option>
-                        <option value="volunteering">Volunteering &amp; Youth Action</option>
+                        <option value="member">Member – Join our community &amp; contribute ideas</option>
+                        <option value="volunteer">Volunteer – Support events, research &amp; outreach</option>
+                        <option value="sponsor">Sponsor – Power impactful programs &amp; initiatives</option>
+                        <option value="entity-partner">Entity Partner – Institutional Collaboration</option>
+                        <option value="research">Academic / Research Collaboration</option>
                       </select>
                     </div>
                   </div>

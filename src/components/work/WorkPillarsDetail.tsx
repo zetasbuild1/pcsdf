@@ -1,57 +1,71 @@
 import React from "react";
 import {
   Users,
-  Leaf,
   Trees,
+  Leaf,
   Sprout,
-  ShieldCheck,
-  Cloud,
   RotateCcw,
+  Cloud,
+  ShieldCheck,
+  Zap,
+  Scale,
 } from "lucide-react";
 import styles from "./WorkPillarsDetail.module.css";
 
 const PILLARS = [
   {
     title: "Retention",
-    desc: "Strengthening community cohesion, preserving ancestral wisdom, and retaining local population stability in climate-vulnerable zones.",
+    desc: "Keeping intact what still functions well in ecological, social, and cultural systems before loss occurs.",
     bgColor: "#154840",
-    icon: <Users size={26} strokeWidth={1.8} />,
-  },
-  {
-    title: "Restoration",
-    desc: "Active ecological rehabilitation of degraded mangrove forests, eroded watersheds, and devastated agrarian topsoil.",
-    bgColor: "#4b8a53",
-    icon: <Leaf size={26} strokeWidth={1.8} />,
+    icon: <Users size={24} strokeWidth={1.8} />,
   },
   {
     title: "Conservation",
-    desc: "Safeguarding delicate biodiversity corridors, marine reserves, and native wildlife sanctuaries through participatory enforcement.",
+    desc: "Proactively safeguarding critical ecosystems, biodiversity corridors, ancestral knowledge, and natural resources.",
     bgColor: "#247b7b",
-    icon: <Trees size={26} strokeWidth={1.8} />,
+    icon: <Trees size={24} strokeWidth={1.8} />,
+  },
+  {
+    title: "Restoration",
+    desc: "Repairing and healing damaged environments, degraded lands, and fractured community networks.",
+    bgColor: "#4b8a53",
+    icon: <Leaf size={24} strokeWidth={1.8} />,
   },
   {
     title: "Regeneration",
-    desc: "Revitalizing ecosystem carrying capacity, replenishing depleted aquifers, and restoring symbiotic economic prosperity.",
+    desc: "Enabling systems to regain vitality and self-renew, moving beyond 'do less harm' to active biological enrichment.",
     bgColor: "#6b8d43",
-    icon: <Sprout size={26} strokeWidth={1.8} />,
-  },
-  {
-    title: "Adaptation",
-    desc: "Deploying climate-resilient farming techniques, saltwater intrusion barriers, and early-warning community disaster preparedness.",
-    bgColor: "#be8a48",
-    icon: <ShieldCheck size={26} strokeWidth={1.8} />,
-  },
-  {
-    title: "Mitigation",
-    desc: "Accelerating decentralized solar deployment, clean village micro-grids, and biological carbon sequestration through re-greening.",
-    bgColor: "#3883ba",
-    icon: <Cloud size={26} strokeWidth={1.8} />,
+    icon: <Sprout size={24} strokeWidth={1.8} />,
   },
   {
     title: "Circularity",
-    desc: "Transforming agricultural biomass into biochar, closing resource loops, and minimizing chemical dependency through regenerative organics.",
+    desc: "Designing out waste and keeping materials, value, and economic benefits circulating equitably.",
     bgColor: "#c45f39",
-    icon: <RotateCcw size={26} strokeWidth={1.8} />,
+    icon: <RotateCcw size={24} strokeWidth={1.8} />,
+  },
+  {
+    title: "Mitigation",
+    desc: "Reducing the systemic drivers of harm, including carbon emissions, pollution, and conflict triggers.",
+    bgColor: "#3883ba",
+    icon: <Cloud size={24} strokeWidth={1.8} />,
+  },
+  {
+    title: "Adaptation",
+    desc: "Strengthening resilience to unfolding climate shocks, ecological shifts, and socioeconomic transformations.",
+    bgColor: "#be8a48",
+    icon: <ShieldCheck size={24} strokeWidth={1.8} />,
+  },
+  {
+    title: "Transformation",
+    desc: "Shifting institutional architectures, economic norms, and legal rules toward peace-led, regenerative models.",
+    bgColor: "#7c4a96",
+    icon: <Zap size={24} strokeWidth={1.8} />,
+  },
+  {
+    title: "Climate Justice",
+    desc: "Ensuring equitable distribution of burdens and benefits, prioritizing those most vulnerable and least responsible.",
+    bgColor: "#b33939",
+    icon: <Scale size={24} strokeWidth={1.8} />,
   },
 ];
 
@@ -60,12 +74,11 @@ export default function WorkPillarsDetail() {
     <section className={styles.section} id="pillars">
       <div className={styles.container}>
         <div className={styles.headerText}>
-          <span className={styles.tag}>FOUNDATIONAL FRAMEWORK</span>
-          <h2 className={styles.title}>The Seven Pillars of PCSDF</h2>
+          <span className={styles.tag}>FOUNDATIONAL CONTINUUM</span>
+          <h2 className={styles.title}>The Nine Regenerative Pillars</h2>
           <p className={styles.subtitle}>
-            Our initiatives do not operate in isolation. Every field program is
-            engineered to integrate across our seven systemic pillars, ensuring
-            enduring ecological and social resilience.
+            The PCSDF framework integrates a consistent continuum of action across all 30 systems
+            and 332 sectors, moving from retention to climate justice as one unified whole.
           </p>
         </div>
 

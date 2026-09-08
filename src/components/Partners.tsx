@@ -7,29 +7,26 @@ export default function Partners() {
       <div className={styles.container}>
         {/* Text Column */}
         <div className={styles.textCol}>
-          <span className="section-tag">OUR PARTNERS</span>
-          <h2 className={styles.title}>Stronger Together</h2>
+          <span className="section-tag">GLOBAL COOPERATION</span>
+          <h2 className={styles.title}>Network of Networks</h2>
           <p className={styles.description}>
-            We work with governments, civil society, academia, private sector and
-            local communities to create lasting impact.
+            Collaborating with institutional entity partners, research bodies, civil society,
+            and multilateral forums across 193 UN Member States.
           </p>
         </div>
 
         {/* Logos Column */}
         <div className={styles.logosCol}>
-          {/* UNDP Logo */}
-          <div className={styles.partnerLogo} title="United Nations Development Programme">
-            <svg height="38" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="1" y="1" width="43" height="40" rx="2" stroke="#1d2e24" strokeWidth="2" />
-              {/* UN Globe & Laurel */}
-              <circle cx="22.5" cy="14" r="7" stroke="#1d2e24" strokeWidth="1.2" />
-              <ellipse cx="22.5" cy="14" rx="3.5" ry="7" stroke="#1d2e24" strokeWidth="1" />
-              <line x1="15.5" y1="14" x2="29.5" y2="14" stroke="#1d2e24" strokeWidth="1" />
-              {/* UNDP Text */}
-              <text x="22.5" y="32" fill="#1d2e24" fontSize="9" fontWeight="800" textAnchor="middle" letterSpacing="0.5px" fontFamily="var(--font-body)">
-                UNDP
-              </text>
-            </svg>
+          {/* NGO Committee On Disarmament, Peace and Security */}
+          <div className={styles.partnerLogo} title="NGO Committee On Disarmament, Peace and Security">
+            <div className="flex items-center gap-2 px-1">
+              <span className="font-serif font-bold text-xs tracking-wider text-emerald-950 uppercase border-r border-emerald-800/30 pr-2">
+                NGO DPS
+              </span>
+              <span className="text-[10px] font-semibold text-emerald-900/80 leading-tight">
+                Disarmament, Peace<br />& Security
+              </span>
+            </div>
           </div>
 
           {/* UN Environment Programme */}

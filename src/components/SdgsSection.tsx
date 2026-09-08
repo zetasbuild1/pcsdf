@@ -141,18 +141,19 @@ export default function SdgsSection() {
         <div className={styles.layout}>
           {/* Left Column */}
           <div className={styles.leftCol}>
-            <span className="section-tag">ALIGNED WITH</span>
+            <span className="section-tag">ROOTED IN GLOBAL AGREEMENTS</span>
             <h2 className={styles.title}>
-              United Nations
+              Brundtland, Human Rights
               <br />
-              Sustainable Development Goals
+              &amp; the 17 UN SDGs
             </h2>
             <p className={styles.description}>
-              Our work supports the global agenda for a more peaceful, prosperous
-              and sustainable world.
+              The PFICF-RSSDF fully supports and reinforces the United Nations 2030 Agenda,
+              extending Brundtland&apos;s intergenerational vision into a world of planetary
+              boundaries, systemic risk, and shared cosmic commons.
             </p>
-            <a href="#sdgs" className={styles.viewSdgsBtn}>
-              <span>View All SDGs</span>
+            <a href="/our-work" className={styles.viewSdgsBtn}>
+              <span>Explore SDG Alignment</span>
               <ArrowRight size={15} />
             </a>
           </div>
@@ -160,8 +161,8 @@ export default function SdgsSection() {
           {/* Right Column: SDG Tiles Grid + Global Goals Badge */}
           <div className={styles.rightCol}>
             <div className={styles.topLinkWrapper}>
-              <a href="#initiatives" className={styles.viewAllLink}>
-                <span>View All Initiatives</span>
+              <a href="/our-work" className={styles.viewAllLink}>
+                <span>View All 8 Initiatives</span>
                 <ArrowRight size={13} />
               </a>
             </div>

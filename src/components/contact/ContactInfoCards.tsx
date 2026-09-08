@@ -25,11 +25,11 @@ export default function ContactInfoCards() {
               <MapPin size={17} />
             </div>
             <div className={styles.infoContent}>
-              <span className={styles.infoLabel}>Headquarters</span>
+              <span className={styles.infoLabel}>Registered Headquarters</span>
               <span className={styles.infoValue}>
-                PCSDF Global Secretariat<br />
-                Colombo Hub &amp; Geneva Liaison<br />
-                Sri Lanka &amp; Switzerland
+                <strong>The Peace-Led Climate-Friendly Sustainable Development Forum</strong><br />
+                60 Paya Lebar Road, #06-28 Paya Lebar Square<br />
+                Singapore 409051
               </span>
             </div>
           </li>
@@ -39,12 +39,15 @@ export default function ContactInfoCards() {
               <Mail size={17} />
             </div>
             <div className={styles.infoContent}>
-              <span className={styles.infoLabel}>Email Inquiries</span>
-              <a href="mailto:info@pcsdf.org" className={`${styles.infoValue} ${styles.infoLink}`}>
-                info@pcsdf.org
+              <span className={styles.infoLabel}>Official Email Addresses</span>
+              <a href="mailto:chapugalle@pcsdf.org" className={`${styles.infoValue} ${styles.infoLink}`}>
+                chapugalle@pcsdf.org
               </a>
-              <a href="mailto:partnerships@pcsdf.org" className={`${styles.infoValue} ${styles.infoLink}`}>
-                partnerships@pcsdf.org
+              <a href="mailto:chaihapugalle@gmail.com" className={`${styles.infoValue} ${styles.infoLink}`}>
+                chaihapugalle@gmail.com
+              </a>
+              <a href="mailto:tpcsdf@gmail.com" className={`${styles.infoValue} ${styles.infoLink}`}>
+                tpcsdf@gmail.com
               </a>
             </div>
           </li>
@@ -54,13 +57,13 @@ export default function ContactInfoCards() {
               <Phone size={17} />
             </div>
             <div className={styles.infoContent}>
-              <span className={styles.infoLabel}>Telephone</span>
-              <a href="tel:+94112345678" className={`${styles.infoValue} ${styles.infoLink}`}>
-                +94 (11) 234-5678 (Asia-Pacific)
+              <span className={styles.infoLabel}>Phone &amp; WhatsApp</span>
+              <a href="https://wa.me/6580701667" className={`${styles.infoValue} ${styles.infoLink}`} target="_blank" rel="noopener noreferrer">
+                +65 8070 1667 (WhatsApp calls &amp; messages)
               </a>
-              <span className={styles.infoValue}>
-                +41 (22) 730-8111 (Europe)
-              </span>
+              <a href="tel:+6597240021" className={`${styles.infoValue} ${styles.infoLink}`}>
+                +65 9724 0021
+              </a>
             </div>
           </li>
 
@@ -71,8 +74,8 @@ export default function ContactInfoCards() {
             <div className={styles.infoContent}>
               <span className={styles.infoLabel}>Secretariat Hours</span>
               <span className={styles.infoValue}>
-                Monday – Friday: 9:00 AM – 5:30 PM<br />
-                (UTC+5:30 / CET)
+                Monday – Friday: 9:00 AM – 6:00 PM (SGT, UTC+8)<br />
+                Global Virtual Secretariat: Continuous
               </span>
             </div>
           </li>

@@ -5,36 +5,36 @@ import styles from "./FeaturedInitiatives.module.css";
 
 const INITIATIVES = [
   {
-    category: "CLIMATE ACTION",
-    title: "Reforestation & Ecosystem Restoration",
-    desc: "Restoring forests, protecting biodiversity and building climate resilience.",
-    image: "/images/reforestation.jpg",
-    linkText: "Learn More",
-    href: "#reforestation",
+    category: "CONSTITUTIONAL GOVERNANCE",
+    title: "30-System Architecture & 332-Sector Taxonomy",
+    desc: "World's first constitutional operating system holding climate, peace, economy, ecosystems, and technology together as one living whole.",
+    image: "/images/pcsdf/IMG_2680-1.jpeg",
+    linkText: "Explore System Architecture",
+    href: "/our-work#systems",
   },
   {
-    category: "PEACE & INCLUSION",
-    title: "Community Resilience & Livelihoods",
-    desc: "Supporting vulnerable communities through inclusive, sustainable livelihoods and capacity building.",
-    image: "/images/community.jpg",
-    linkText: "Learn More",
-    href: "#resilience",
+    category: "PEACE & DIPLOMACY",
+    title: "Peace-Led Multilateral Cooperation & Accords",
+    desc: "Bridging conflict resolution, historical peace accords, and systemic environmental peacebuilding across 193 UN Member States.",
+    image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
+    linkText: "Read Diplomatic Framework",
+    href: "/our-work#peace-accords",
   },
   {
-    category: "CLEAN ENERGY",
-    title: "Renewable Energy for Rural Communities",
-    desc: "Expanding clean, affordable energy solutions for a greener and more equitable future.",
-    image: "/images/renewable.jpg",
-    linkText: "Learn More",
-    href: "#clean-energy",
+    category: "REGENERATIVE STEWARDSHIP",
+    title: "MEAL & Stewardship 'Hive'",
+    desc: "Integrated monitoring, evaluation, accountability, and learning system tracking progress across all sectors, scales, and generations.",
+    image: "/images/pcsdf/IMG_2768-1024x576.jpeg",
+    linkText: "Learn About The Hive",
+    href: "/our-work#hive",
   },
   {
-    category: "SUSTAINABLE OCEANS",
-    title: "Marine Conservation & Blue Economy",
-    desc: "Protecting marine ecosystems and supporting sustainable coastal livelihoods.",
-    image: "/images/marine.jpg",
-    linkText: "Learn More",
-    href: "#marine-conservation",
+    category: "EARTH TO ORBIT",
+    title: "Planetary & Cosmic Commons Stewardship",
+    desc: "Expanding sustainability stewardship from local ecosystems to planetary boundaries, orbital commons, and outer space.",
+    image: "/images/pcsdf/IMG_2541-1024x1024.jpeg",
+    linkText: "Explore Commons Governance",
+    href: "/our-work#commons",
   },
 ];
 
@@ -44,10 +44,10 @@ export default function FeaturedInitiatives() {
       <div className={styles.container}>
         <div className={styles.topBar}>
           <div className={styles.headerText}>
-            <span className="section-tag">FEATURED INITIATIVES</span>
-            <h2 className={styles.title}>Driving Change on the Ground</h2>
+            <span className="section-tag">GLOBAL INITIATIVES</span>
+            <h2 className={styles.title}>Governing Sustainability Across Systems</h2>
           </div>
-          <a href="#initiatives" className={styles.viewAll}>
+          <a href="/our-work" className={styles.viewAll}>
             <span>View All Initiatives</span>
             <ArrowRight size={14} />
           </a>

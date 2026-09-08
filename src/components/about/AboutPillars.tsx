@@ -1,57 +1,71 @@
 import React from "react";
 import {
   Users,
-  Leaf,
   Trees,
+  Leaf,
   Sprout,
-  ShieldCheck,
-  Cloud,
   RotateCcw,
+  Cloud,
+  ShieldCheck,
+  Zap,
+  Scale,
 } from "lucide-react";
 import styles from "../SevenPillars.module.css";
 
 const PILLARS = [
   {
     title: "Retention",
-    desc: "Keeping communities strong and connected",
+    desc: "Keeping intact what functions well in ecological and social systems",
     bgColor: "#154840",
-    icon: <Users size={24} strokeWidth={1.75} />,
-  },
-  {
-    title: "Restoration",
-    desc: "Rebuilding degraded ecosystems and livelihoods",
-    bgColor: "#4b8a53",
-    icon: <Leaf size={24} strokeWidth={1.75} />,
+    icon: <Users size={22} strokeWidth={1.75} />,
   },
   {
     title: "Conservation",
-    desc: "Protecting biodiversity and natural resources",
+    desc: "Proactively safeguarding critical ecosystems, cultures, and resources",
     bgColor: "#247b7b",
-    icon: <Trees size={24} strokeWidth={1.75} />,
+    icon: <Trees size={22} strokeWidth={1.75} />,
+  },
+  {
+    title: "Restoration",
+    desc: "Repairing and healing damaged environments and communities",
+    bgColor: "#4b8a53",
+    icon: <Leaf size={22} strokeWidth={1.75} />,
   },
   {
     title: "Regeneration",
-    desc: "Restoring balance for long-term prosperity",
+    desc: "Enabling systems to regain vitality and self-renew beyond 'do less harm'",
     bgColor: "#6b8d43",
-    icon: <Sprout size={24} strokeWidth={1.75} />,
-  },
-  {
-    title: "Adaptation",
-    desc: "Building resilience to climate risks and change",
-    bgColor: "#be8a48",
-    icon: <ShieldCheck size={24} strokeWidth={1.75} />,
-  },
-  {
-    title: "Mitigation",
-    desc: "Reducing emissions and environmental impact",
-    bgColor: "#3883ba",
-    icon: <Cloud size={24} strokeWidth={1.75} />,
+    icon: <Sprout size={22} strokeWidth={1.75} />,
   },
   {
     title: "Circularity",
-    desc: "Promoting resource efficiency and zero waste",
+    desc: "Designing out waste and circulating value fairly and sustainably",
     bgColor: "#c45f39",
-    icon: <RotateCcw size={24} strokeWidth={1.75} />,
+    icon: <RotateCcw size={22} strokeWidth={1.75} />,
+  },
+  {
+    title: "Mitigation",
+    desc: "Reducing drivers of harm, emissions, pollution, and conflict risks",
+    bgColor: "#3883ba",
+    icon: <Cloud size={22} strokeWidth={1.75} />,
+  },
+  {
+    title: "Adaptation",
+    desc: "Strengthening resilience to unfolding climate and social impacts",
+    bgColor: "#be8a48",
+    icon: <ShieldCheck size={22} strokeWidth={1.75} />,
+  },
+  {
+    title: "Transformation",
+    desc: "Shifting institutions and systems toward peace-led models",
+    bgColor: "#7c4a96",
+    icon: <Zap size={22} strokeWidth={1.75} />,
+  },
+  {
+    title: "Climate Justice",
+    desc: "Fair distribution of burdens and benefits prioritizing the vulnerable",
+    bgColor: "#b33939",
+    icon: <Scale size={22} strokeWidth={1.75} />,
   },
 ];
 
@@ -60,13 +74,14 @@ export default function AboutPillars() {
     <section className={styles.pillarsSection} style={{ backgroundColor: "#ffffff" }}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <span className="section-tag">OUR SEVEN PILLARS</span>
+          <span className="section-tag">REGENERATIVE SUSTAINABILITY PILLARS</span>
           <h2 className={styles.title}>
-            A Holistic Approach to Sustainable Development
+            The Nine Pillars: An Operational Continuum
           </h2>
           <p className={styles.subtitle}>
-            Each pillar is designed to work together, creating stronger,
-            healthier and more resilient communities.
+            At the practical level, the PCSDF framework uses a set of regenerative pillars
+            as a consistent continuum of action across sectors and scales — moving beyond
+            traditional checklists into a constitutional operating system.
           </p>
         </div>
 
