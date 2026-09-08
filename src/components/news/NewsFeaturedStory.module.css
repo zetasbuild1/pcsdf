@@ -1,0 +1,127 @@
+.featuredCard {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2ebe4;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.featuredCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(20, 62, 49, 0.08);
+}
+
+.imageCol {
+  position: relative;
+  width: 48%;
+  min-height: 320px;
+  background-color: #e5ece5;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.featuredImage {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.featuredCard:hover .featuredImage {
+  transform: scale(1.04);
+}
+
+.contentCol {
+  flex: 1;
+  padding: 2.25rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background-color: #eaf5ee;
+  color: #17633e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+.dateWithIcon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: #7b8e84;
+  font-weight: 500;
+}
+
+.calendarIcon {
+  color: #6a8274;
+}
+
+.headline {
+  font-family: var(--font-editorial);
+  font-size: clamp(1.4rem, 2vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #12281e;
+  margin-bottom: 0.85rem;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.featuredCard:hover .headline {
+  color: #1b6343;
+}
+
+.excerpt {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #55675c;
+  margin-bottom: 1.5rem;
+}
+
+.readMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #143e31;
+  transition: gap 0.2s ease, color 0.2s ease;
+  align-self: flex-start;
+}
+
+.readMore:hover {
+  gap: 0.7rem;
+  color: #1e704b;
+}
+
+@media (max-width: 900px) {
+  .featuredCard {
+    flex-direction: column;
+  }
+  .imageCol {
+    width: 100%;
+    min-height: 240px;
+    height: 240px;
+  }
+  .contentCol {
+    padding: 1.75rem 1.5rem;
+  }
+}

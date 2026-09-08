@@ -15,6 +15,7 @@
   --color-footer-border: #1a382d;
   --font-editorial: var(--font-serif), "Cormorant Garamond", Georgia, serif;
   --font-body: var(--font-sans), "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-script: var(--font-script), "Caveat", "Brush Script MT", "Dancing Script", cursive;
 }
 
 * {

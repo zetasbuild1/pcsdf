@@ -59,13 +59,13 @@ export default function Footer() {
             <Link href="#about" className={styles.footerLink}>
               About
             </Link>
-            <Link href="#work" className={styles.footerLink}>
+            <Link href="/our-work" className={styles.footerLink}>
               Our Work
             </Link>
             <Link href="#impact" className={styles.footerLink}>
               Impact
             </Link>
-            <Link href="#knowledge" className={styles.footerLink}>
+            <Link href="/knowledge-hub" className={styles.footerLink}>
               Knowledge Hub
             </Link>
           </div>
@@ -75,10 +75,10 @@ export default function Footer() {
             <Link href="#partnerships" className={styles.footerLink}>
               Partnerships
             </Link>
-            <Link href="#news" className={styles.footerLink}>
+            <Link href="/news" className={styles.footerLink}>
               News
             </Link>
-            <Link href="#contact" className={styles.footerLink}>
+            <Link href="/contact" className={styles.footerLink}>
               Contact
             </Link>
             <Link href="#support" className={styles.footerLink}>

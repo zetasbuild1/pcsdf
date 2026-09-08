@@ -1,0 +1,155 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.infoCard {
+  background-color: #f8faf8;
+  border: 1px solid #e1ebe2;
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardHeaderIcon {
+  color: #1a563d;
+}
+
+.cardTitle {
+  font-family: var(--font-editorial);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #12281e;
+}
+
+.infoList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.iconCircle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #edf5ef;
+  color: #164833;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoLabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #556c5e;
+  margin-bottom: 0.2rem;
+}
+
+.infoValue {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #12281e;
+  line-height: 1.45;
+}
+
+.infoLink {
+  color: #143e31;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.infoLink:hover {
+  color: #1e704b;
+  text-decoration: underline;
+}
+
+/* Response Time Guarantee Card */
+.guaranteeCard {
+  background-color: #f1f6f1;
+  border: 1px solid #dce8dd;
+  border-radius: 18px;
+  padding: 1.6rem 1.6rem;
+}
+
+.guaranteeTitle {
+  font-family: var(--font-editorial);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #12281e;
+  margin-bottom: 0.45rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.guaranteeText {
+  font-size: 0.825rem;
+  line-height: 1.55;
+  color: #4b6153;
+}
+
+/* Social Card */
+.socialCard {
+  background-color: #f8faf8;
+  border: 1px solid #e1ebe2;
+  border-radius: 18px;
+  padding: 1.6rem 1.6rem;
+}
+
+.socialTitle {
+  font-family: var(--font-editorial);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #12281e;
+  margin-bottom: 0.85rem;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.socialBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #dce5df;
+  color: #143e31;
+  transition: all 0.2s ease;
+}
+
+.socialBtn:hover {
+  background-color: #143e31;
+  color: #ffffff;
+  border-color: #143e31;
+  transform: translateY(-2px);
+}

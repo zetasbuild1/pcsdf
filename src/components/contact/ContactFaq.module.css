@@ -1,0 +1,125 @@
+.section {
+  width: 100%;
+  padding: 5rem 0 5.5rem;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.headerText {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1a563d;
+  margin-bottom: 0.45rem;
+  display: block;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: clamp(2rem, 3.2vw, 2.65rem);
+  font-weight: 600;
+  color: #12281e;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.85rem;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 0.925rem;
+  line-height: 1.6;
+  color: #55675c;
+}
+
+.accordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faqItem {
+  background-color: #f8faf8;
+  border: 1px solid #e1ebe2;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.faqItemOpen {
+  border-color: #b8d6c1;
+  background-color: #fbfcfa;
+  box-shadow: 0 4px 16px rgba(20, 62, 49, 0.05);
+}
+
+.faqTrigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.35rem 1.65rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  gap: 1rem;
+  font-family: var(--font-editorial);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #12281e;
+  transition: color 0.2s ease;
+}
+
+.faqTrigger:hover {
+  color: #1b6343;
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #edf5ef;
+  color: #143e31;
+  flex-shrink: 0;
+  transition: transform 0.25s ease, background-color 0.2s ease;
+}
+
+.faqItemOpen .iconWrap {
+  background-color: #143e31;
+  color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.faqAnswer {
+  padding: 0 1.65rem 1.35rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: #4b6153;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 3.5rem 0 4rem;
+  }
+  .faqTrigger {
+    padding: 1.15rem 1.25rem;
+    font-size: 1.025rem;
+  }
+  .faqAnswer {
+    padding: 0 1.25rem 1.15rem;
+  }
+}

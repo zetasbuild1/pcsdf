@@ -10,12 +10,12 @@ import styles from "./Navbar.module.css";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "Our Work", href: "/#work" },
+  { label: "Our Work", href: "/our-work" },
   { label: "Impact", href: "/#impact" },
-  { label: "Knowledge Hub", href: "/#knowledge" },
+  { label: "Knowledge Hub", href: "/knowledge-hub" },
   { label: "Partnerships", href: "/#partnerships" },
-  { label: "News", href: "/#news" },
-  { label: "Contact", href: "/#contact" },
+  { label: "News", href: "/news" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -25,6 +25,10 @@ export default function Navbar() {
   const isItemActive = (href: string) => {
     if (href === "/") return pathname === "/";
     if (href === "/about") return pathname === "/about";
+    if (href === "/our-work") return pathname === "/our-work" || pathname.startsWith("/our-work") || pathname === "/work";
+    if (href === "/knowledge-hub") return pathname === "/knowledge-hub" || pathname.startsWith("/knowledge-hub");
+    if (href === "/news") return pathname === "/news" || pathname.startsWith("/news");
+    if (href === "/contact") return pathname === "/contact" || pathname.startsWith("/contact");
     return false;
   };
 
