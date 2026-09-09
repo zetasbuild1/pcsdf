@@ -189,6 +189,22 @@ export default function Footer() {
             <Leaf size={14} className={styles.leafIcon} />
           </div>
         </div>
+
+        {/* Developer Bar */}
+        <div className={styles.developerBar}>
+          <p>© 2026 Designed and Developed by ZetasBuild. All Rights Reserved</p>
+          <p>
+            zetasbuild -{" "}
+            <a
+              href="https://www.zetasbuild.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.developerLink}
+            >
+              www.zetasbuild.com
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
