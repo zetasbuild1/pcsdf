@@ -162,7 +162,7 @@ export default function SdgsSection() {
           <div className={styles.rightCol}>
             <div className={styles.topLinkWrapper}>
               <a href="/our-work" className={styles.viewAllLink}>
-                <span>View All 8 Initiatives</span>
+                <span>View All 17 Global Goals</span>
                 <ArrowRight size={13} />
               </a>
             </div>

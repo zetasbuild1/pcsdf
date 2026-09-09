@@ -31,13 +31,43 @@
   color: #4f6357;
 }
 
-.pillarsGrid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 1rem;
+.marqueeContainer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 45s linear infinite;
+}
+
+.marqueeTrack:hover {
+  animation-play-state: paused;
+}
+
+.marqueeGroup {
+  display: flex;
+  gap: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .pillarCard {
+  width: 220px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,25 +114,30 @@
 }
 
 @media (max-width: 1080px) {
-  .pillarsGrid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem 1rem;
+  .pillarCard {
+    width: 190px;
   }
 }
 
 @media (max-width: 640px) {
   .pillarsSection {
-    padding: 3.5rem 1.25rem;
+    padding: 3.5rem 0;
+  }
+  .header {
+    padding: 0 1.25rem;
   }
   .title {
     font-size: 2rem;
   }
-  .pillarsGrid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 1rem;
+  .pillarCard {
+    width: 150px;
   }
   .circleIcon {
     width: 56px;
     height: 56px;
+  }
+  .marqueeGroup {
+    gap: 1.5rem;
+    padding-right: 1.5rem;
   }
 }

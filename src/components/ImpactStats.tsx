@@ -1,6 +1,60 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState, useRef } from "react";
 import { Users, Leaf, Globe2, Sprout, ArrowRight } from "lucide-react";
 import styles from "./ImpactStats.module.css";
+
+function AnimatedCounter({ value }: { value: string }) {
+  const [count, setCount] = useState(0);
+  const targetRef = useRef<HTMLDivElement>(null);
+  
+  const numericMatch = value.match(/\d+/);
+  const targetNumber = numericMatch ? parseInt(numericMatch[0], 10) : 0;
+  const suffix = value.replace(/\d+/g, '');
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          let startTimestamp: number | null = null;
+          const duration = 2000;
+          
+          const step = (timestamp: number) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            
+            const easeOut = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            setCount(Math.floor(easeOut * targetNumber));
+            
+            if (progress < 1) {
+              window.requestAnimationFrame(step);
+            } else {
+              setCount(targetNumber);
+            }
+          };
+          window.requestAnimationFrame(step);
+        } else {
+          setCount(0);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentRef = targetRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+    return () => {
+      if (currentRef) observer.unobserve(currentRef);
+    };
+  }, [targetNumber]);
+
+  return (
+    <div ref={targetRef} className={styles.statNumber}>
+      {count}{suffix}
+    </div>
+  );
+}
 
 const STATS = [
   {
@@ -87,7 +141,7 @@ export default function ImpactStats() {
           {STATS.map((stat, idx) => (
             <div key={idx} className={styles.statCard}>
               <div className={styles.iconWrapper}>{stat.icon}</div>
-              <div className={styles.statNumber}>{stat.number}</div>
+              <AnimatedCounter value={stat.number} />
               <div className={styles.statLabel}>
                 {stat.label.split("\n").map((line, i) => (
                   <React.Fragment key={i}>

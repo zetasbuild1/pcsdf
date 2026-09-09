@@ -84,19 +84,37 @@ export default function SevenPillars() {
           </p>
         </div>
 
-        <div className={styles.pillarsGrid}>
-          {PILLARS.map((pillar, idx) => (
-            <div key={idx} className={styles.pillarCard}>
-              <div
-                className={styles.circleIcon}
-                style={{ backgroundColor: pillar.bgColor }}
-              >
-                {pillar.icon}
-              </div>
-              <h3 className={styles.pillarTitle}>{pillar.title}</h3>
-              <p className={styles.pillarDesc}>{pillar.desc}</p>
+        <div className={styles.marqueeContainer}>
+          <div className={styles.marqueeTrack}>
+            <div className={styles.marqueeGroup}>
+              {PILLARS.map((pillar, idx) => (
+                <div key={`orig-${idx}`} className={styles.pillarCard}>
+                  <div
+                    className={styles.circleIcon}
+                    style={{ backgroundColor: pillar.bgColor }}
+                  >
+                    {pillar.icon}
+                  </div>
+                  <h3 className={styles.pillarTitle}>{pillar.title}</h3>
+                  <p className={styles.pillarDesc}>{pillar.desc}</p>
+                </div>
+              ))}
             </div>
-          ))}
+            <div className={styles.marqueeGroup} aria-hidden="true">
+              {PILLARS.map((pillar, idx) => (
+                <div key={`dup-${idx}`} className={styles.pillarCard}>
+                  <div
+                    className={styles.circleIcon}
+                    style={{ backgroundColor: pillar.bgColor }}
+                  >
+                    {pillar.icon}
+                  </div>
+                  <h3 className={styles.pillarTitle}>{pillar.title}</h3>
+                  <p className={styles.pillarDesc}>{pillar.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
