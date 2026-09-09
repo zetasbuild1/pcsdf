@@ -49,6 +49,7 @@ export default function PcsdfLogo({
           PCSDF
         </span>
         <span
+          className="hidden sm:block"
           style={{
             fontFamily: "var(--font-body)",
             color: subtextColor,

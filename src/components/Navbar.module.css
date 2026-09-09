@@ -126,3 +126,12 @@
     font-weight: 600;
   }
 }
+
+@media (max-width: 640px) {
+  .inner {
+    padding: 0 1rem;
+  }
+  .actions {
+    gap: 0.5rem;
+  }
+}
