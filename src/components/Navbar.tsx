@@ -11,7 +11,6 @@ const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Work", href: "/our-work" },
-  { label: "Impact", href: "/#impact" },
   { label: "Knowledge Hub", href: "/knowledge-hub" },
   { label: "Partnerships", href: "/#partnerships" },
   { label: "News", href: "/news" },

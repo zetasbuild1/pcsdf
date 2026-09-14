@@ -17,7 +17,7 @@ export default function AboutHero() {
       {/* Gradient Readability Overlay */}
       <div className={styles.gradientOverlay} />
 
-      {/* Botanical Leaf Top Left */}
+      {/* Botanical Motif Top Left */}
       <svg
         className={styles.leafTopLeft}
         viewBox="0 0 180 180"
@@ -27,22 +27,22 @@ export default function AboutHero() {
       >
         <path
           d="M0 0C50 15 80 65 70 125C55 70 30 35 0 0Z"
-          fill="#336946"
-          opacity="0.75"
+          fill="#dc2626"
+          opacity="0.3"
         />
         <path
           d="M15 -15C75 10 115 65 105 130C85 75 50 30 15 -15Z"
-          fill="#4d855e"
-          opacity="0.65"
+          fill="#ef4444"
+          opacity="0.25"
         />
         <path
           d="M45 -25C100 5 145 55 135 110C110 65 75 25 45 -25Z"
-          fill="#78ab88"
-          opacity="0.5"
+          fill="#f87171"
+          opacity="0.2"
         />
       </svg>
 
-      {/* Botanical Leaf Bottom Left */}
+      {/* Botanical Motif Bottom Left */}
       <svg
         className={styles.leafBottomLeft}
         viewBox="0 0 240 240"
@@ -52,18 +52,18 @@ export default function AboutHero() {
       >
         <path
           d="M-20 260C40 180 130 160 210 200C130 150 50 180 -20 260Z"
-          fill="#2b5a3c"
-          opacity="0.85"
+          fill="#b91c1c"
+          opacity="0.3"
         />
         <path
           d="M0 220C60 140 160 130 230 160C150 120 70 140 0 220Z"
-          fill="#3e7550"
-          opacity="0.75"
+          fill="#dc2626"
+          opacity="0.25"
         />
         <path
           d="M-30 200C30 120 110 90 190 100C120 80 50 125 -30 200Z"
-          fill="#58916c"
-          opacity="0.65"
+          fill="#ef4444"
+          opacity="0.2"
         />
       </svg>
 

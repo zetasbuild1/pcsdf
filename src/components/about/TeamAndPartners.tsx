@@ -18,13 +18,13 @@ export default function TeamAndPartners() {
             <strong> Thomas Wuchte</strong> (Director &amp; Technical Advisor), our governance ensures
             fiduciary stewardship, legal compliance, and strategic alignment across our global initiatives.
           </p>
-          <div className="flex flex-col gap-2 mb-6 text-xs text-emerald-950/80">
+          <div className="flex flex-col gap-2 mb-6 text-xs text-gray-900">
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+              <span className="w-1.5 h-1.5 rounded-full bg-red-600" />
               <span><strong>Chaitri (Chai) N. Hapugalle</strong> — Founder &amp; Director</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+              <span className="w-1.5 h-1.5 rounded-full bg-red-600" />
               <span><strong>Thomas Wuchte</strong> — Director &amp; Technical Advisor</span>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function TeamAndPartners() {
         {/* Center Column: Leadership Photo */}
         <div className={styles.imageCol}>
           <Image
-            src="/images/pcsdf/IMG_4512.jpeg"
+            src="/images/pcsdf/IMG_0685-7-768x1024.jpeg"
             alt="Founder Chaitri (Chai) N. Hapugalle - PCSDF"
             fill
             className={styles.teamImage}

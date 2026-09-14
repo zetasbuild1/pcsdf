@@ -77,7 +77,7 @@ export default function WorkPillarsDetail() {
           <span className={styles.tag}>FOUNDATIONAL CONTINUUM</span>
           <h2 className={styles.title}>The Nine Regenerative Pillars</h2>
           <p className={styles.subtitle}>
-            The PCSDF framework integrates a consistent continuum of action across all 30 systems
+            PCSDF integrates a consistent continuum of action across all 30 systems
             and 332 sectors, moving from retention to climate justice as one unified whole.
           </p>
         </div>

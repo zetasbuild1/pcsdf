@@ -1,7 +1,7 @@
 .pillarsSection {
-  background-color: #f3f6f3;
+  background-color: #fafafa;
   padding: 5.5rem 1.5rem;
-  border-bottom: 1px solid #e7ece7;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .container {
@@ -20,7 +20,7 @@
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1.25;
-  color: #123326;
+  color: #111827;
   margin-bottom: 0.85rem;
 }
 
@@ -28,7 +28,7 @@
   font-family: var(--font-body);
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #4f6357;
+  color: #4b5563;
 }
 
 .marqueeContainer {
@@ -102,7 +102,7 @@
   font-family: var(--font-body);
   font-size: 0.95rem;
   font-weight: 700;
-  color: #1a3328;
+  color: #111827;
   margin-bottom: 0.45rem;
 }
 
@@ -110,7 +110,7 @@
   font-family: var(--font-body);
   font-size: 0.76rem;
   line-height: 1.45;
-  color: #55675c;
+  color: #4b5563;
 }
 
 @media (max-width: 1080px) {

@@ -79,7 +79,7 @@ export default function SevenPillars() {
             The Nine Regenerative Pillars
           </h2>
           <p className={styles.subtitle}>
-            The PCSDF framework uses a consistent continuum of action across sectors and scales
+            PCSDF advances a consistent continuum of action across sectors and scales
             to bridge human well-being, ecological health, and systemic planetary resilience.
           </p>
         </div>

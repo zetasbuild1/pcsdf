@@ -1,0 +1,104 @@
+.agendaSection {
+  background-color: #fafafa;
+  padding: 5.5rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerBox {
+  max-width: 820px;
+  margin-bottom: 3.5rem;
+}
+
+.title {
+  font-family: var(--font-editorial);
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #111827;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-family: var(--font-editorial);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #c51e1e;
+  margin-bottom: 1.25rem;
+}
+
+.leadText {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.vmGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.vmCard {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-top: 4px solid #c51e1e;
+  border-radius: 8px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardIconCircle {
+  width: 48px;
+  height: 48px;
+  background-color: #fcedeb;
+  color: #c51e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  border-radius: 8px;
+}
+
+.cardTitle {
+  font-family: var(--font-editorial);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.cardDesc {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #4b5563;
+}
+
+@media (max-width: 900px) {
+  .vmGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .agendaSection {
+    padding: 3.5rem 1.25rem;
+  }
+  .title {
+    font-size: 1.75rem;
+  }
+  .subtitle {
+    font-size: 1.05rem;
+  }
+}

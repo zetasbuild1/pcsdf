@@ -21,10 +21,10 @@
 /* Form Column */
 .formCard {
   background-color: #ffffff;
-  border: 1px solid #e1ebe2;
+  border: 1px solid #e5e7eb;
   border-radius: 20px;
   padding: 2.75rem 2.5rem;
-  box-shadow: 0 6px 24px rgba(20, 62, 49, 0.04);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
 }
 
 .tag {
@@ -32,7 +32,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #1a563d;
+  color: #c51e1e;
   margin-bottom: 0.45rem;
   display: block;
 }
@@ -41,7 +41,7 @@
   font-family: var(--font-editorial);
   font-size: 2.1rem;
   font-weight: 600;
-  color: #12281e;
+  color: #111827;
   letter-spacing: -0.01em;
   margin-bottom: 0.5rem;
 }
@@ -50,7 +50,7 @@
   font-family: var(--font-body);
   font-size: 0.9rem;
   line-height: 1.55;
-  color: #55675c;
+  color: #4b5563;
   margin-bottom: 2rem;
 }
 
@@ -75,32 +75,32 @@
 .label {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #1e3529;
+  color: #111827;
 }
 
 .required {
-  color: #e11d48;
+  color: #c51e1e;
 }
 
 .inputWrapper {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #fbfcfa;
-  border: 1.5px solid #d8e4db;
+  background-color: #fafafa;
+  border: 1.5px solid #e5e7eb;
   border-radius: 10px;
   padding: 0 0.85rem;
   transition: all 0.2s ease;
 }
 
 .inputWrapper:focus-within {
-  border-color: #143e31;
+  border-color: #c51e1e;
   background-color: #ffffff;
-  box-shadow: 0 0 0 3px rgba(20, 62, 49, 0.08);
+  box-shadow: 0 0 0 3px rgba(197, 30, 30, 0.08);
 }
 
 .inputIcon {
-  color: #6a8274;
+  color: #6b7280;
   flex-shrink: 0;
   margin-right: 0.65rem;
 }
@@ -112,12 +112,12 @@
   background: transparent;
   padding: 0.75rem 0;
   font-size: 0.875rem;
-  color: #14281f;
+  color: #111827;
   font-family: var(--font-body);
 }
 
 .input::placeholder {
-  color: #8fa096;
+  color: #9ca3af;
 }
 
 .select {
@@ -127,23 +127,23 @@
   background: transparent;
   padding: 0.75rem 0;
   font-size: 0.875rem;
-  color: #14281f;
+  color: #111827;
   font-family: var(--font-body);
   cursor: pointer;
 }
 
 .textareaWrapper {
-  background-color: #fbfcfa;
-  border: 1.5px solid #d8e4db;
+  background-color: #fafafa;
+  border: 1.5px solid #e5e7eb;
   border-radius: 10px;
   padding: 0.85rem;
   transition: all 0.2s ease;
 }
 
 .textareaWrapper:focus-within {
-  border-color: #143e31;
+  border-color: #c51e1e;
   background-color: #ffffff;
-  box-shadow: 0 0 0 3px rgba(20, 62, 49, 0.08);
+  box-shadow: 0 0 0 3px rgba(197, 30, 30, 0.08);
 }
 
 .textarea {
@@ -152,7 +152,7 @@
   outline: none;
   background: transparent;
   font-size: 0.875rem;
-  color: #14281f;
+  color: #111827;
   font-family: var(--font-body);
   resize: vertical;
   min-height: 120px;
@@ -160,7 +160,7 @@
 }
 
 .textarea::placeholder {
-  color: #8fa096;
+  color: #9ca3af;
 }
 
 .checkboxLabel {
@@ -169,14 +169,14 @@
   gap: 0.65rem;
   font-size: 0.8rem;
   line-height: 1.45;
-  color: #4f6356;
+  color: #4b5563;
   cursor: pointer;
   margin-top: 0.35rem;
 }
 
 .checkbox {
   margin-top: 0.2rem;
-  accent-color: #143e31;
+  accent-color: #c51e1e;
   cursor: pointer;
 }
 
@@ -185,7 +185,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.55rem;
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   border: none;
   border-radius: 9999px;
@@ -199,9 +199,9 @@
 }
 
 .submitBtn:hover:not(:disabled) {
-  background-color: #1b5342;
+  background-color: #991b1b;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(20, 62, 49, 0.25);
+  box-shadow: 0 6px 16px rgba(197, 30, 30, 0.25);
 }
 
 .submitBtn:disabled {
@@ -210,28 +210,28 @@
 }
 
 .successBox {
-  background-color: #edf7f0;
-  border: 1.5px solid #bce2c7;
+  background-color: #fef2f2;
+  border: 1.5px solid #fca5a5;
   border-radius: 14px;
   padding: 2rem;
   text-align: center;
 }
 
 .successIcon {
-  color: #156d43;
+  color: #c51e1e;
   margin-bottom: 0.85rem;
 }
 
 .successTitle {
   font-family: var(--font-editorial);
   font-size: 1.6rem;
-  color: #12281e;
+  color: #111827;
   margin-bottom: 0.45rem;
 }
 
 .successText {
   font-size: 0.875rem;
-  color: #435b4c;
+  color: #4b5563;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -240,7 +240,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.6rem 1.4rem;
   border-radius: 9999px;
@@ -252,7 +252,7 @@
 }
 
 .resetBtn:hover {
-  background-color: #1b5342;
+  background-color: #991b1b;
 }
 
 @media (max-width: 1024px) {

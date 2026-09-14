@@ -43,7 +43,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #1a563d;
+  color: #c51e1e;
   margin-bottom: 0.45rem;
   display: block;
 }
@@ -52,7 +52,7 @@
   font-family: var(--font-editorial);
   font-size: 2.1rem;
   font-weight: 600;
-  color: #12281e;
+  color: #111827;
   letter-spacing: -0.01em;
 }
 
@@ -62,7 +62,7 @@
   gap: 0.4rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: all 0.2s ease;
   background: none;
   border: none;
@@ -71,7 +71,7 @@
 }
 
 .viewAll:hover {
-  color: #1e704b;
+  color: #991b1b;
   gap: 0.6rem;
 }
 
@@ -98,7 +98,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 10;
-  background-color: #e5ece5;
+  background-color: #f3f4f6;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -142,12 +142,12 @@
   align-items: center;
   gap: 0.35rem;
   font-size: 0.75rem;
-  color: #7b8e84;
+  color: #6b7280;
   font-weight: 500;
 }
 
 .calendarIcon {
-  color: #6a8274;
+  color: #9ca3af;
 }
 
 .cardTitle {
@@ -155,20 +155,20 @@
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.3;
-  color: #132a1e;
+  color: #111827;
   margin-bottom: 0.65rem;
   transition: color 0.2s ease;
 }
 
 .newsCard:hover .cardTitle {
-  color: #1a6544;
+  color: #c51e1e;
 }
 
 .cardDesc {
   font-family: var(--font-body);
   font-size: 0.825rem;
   line-height: 1.55;
-  color: #55675c;
+  color: #4b5563;
   margin-bottom: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -182,21 +182,21 @@
   gap: 0.4rem;
   font-size: 0.815rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   margin-top: auto;
   transition: gap 0.2s ease, color 0.2s ease;
 }
 
 .readMore:hover {
   gap: 0.6rem;
-  color: #1e704b;
+  color: #991b1b;
 }
 
 /* Empty search state */
 .noResults {
   padding: 3.5rem 1.5rem;
   text-align: center;
-  background-color: #f7faf8;
+  background-color: #fafafa;
   border-radius: 12px;
   grid-column: 1 / -1;
 }
@@ -204,13 +204,13 @@
 .noResultsTitle {
   font-family: var(--font-editorial);
   font-size: 1.35rem;
-  color: #12281e;
+  color: #111827;
   margin-bottom: 0.5rem;
 }
 
 .noResultsText {
   font-size: 0.875rem;
-  color: #55675c;
+  color: #4b5563;
   margin-bottom: 1.25rem;
 }
 
@@ -218,7 +218,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.55rem 1.25rem;
   border-radius: 9999px;
@@ -230,7 +230,7 @@
 }
 
 .resetBtn:hover {
-  background-color: #1c5543;
+  background-color: #991b1b;
 }
 
 /* Right Column Sidebar */
@@ -242,8 +242,8 @@
 
 /* Sidebar Card 1: News Categories */
 .categoriesCard {
-  background-color: #f8faf8;
-  border: 1px solid #e1ebe2;
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
   border-radius: 16px;
   padding: 1.6rem 1.5rem;
 }
@@ -256,14 +256,14 @@
 }
 
 .headerIcon {
-  color: #1c5543;
+  color: #c51e1e;
 }
 
 .sidebarTitle {
   font-family: var(--font-editorial);
   font-size: 1.35rem;
   font-weight: 600;
-  color: #12281e;
+  color: #111827;
 }
 
 .categoriesList {
@@ -273,7 +273,7 @@
 }
 
 .categoryItem {
-  border-bottom: 1px solid #e5eee6;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .categoryItem:last-child {
@@ -289,7 +289,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #3b5045;
+  color: #4b5563;
   font-size: 0.85rem;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -298,12 +298,12 @@
 }
 
 .categoryBtn:hover {
-  color: #143e31;
+  color: #c51e1e;
   padding-left: 0.35rem;
 }
 
 .categoryBtnActive {
-  color: #143e31;
+  color: #c51e1e;
   font-weight: 700;
   padding-left: 0.35rem;
 }
@@ -315,7 +315,7 @@
 }
 
 .categoryIcon {
-  color: #276749;
+  color: #c51e1e;
   flex-shrink: 0;
 }
 
@@ -327,16 +327,16 @@
   height: 20px;
   padding: 0 6px;
   border-radius: 9999px;
-  background-color: #edf4ee;
-  color: #556c5e;
+  background-color: #fef2f2;
+  color: #c51e1e;
   font-size: 0.72rem;
   font-weight: 600;
 }
 
 /* Sidebar Card 2: Newsletter */
 .newsletterCard {
-  background-color: #f8faf8;
-  border: 1px solid #e1ebe2;
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
   border-radius: 16px;
   padding: 1.6rem 1.5rem;
 }
@@ -345,7 +345,7 @@
   font-family: var(--font-body);
   font-size: 0.825rem;
   line-height: 1.5;
-  color: #55675c;
+  color: #4b5563;
   margin-bottom: 1.25rem;
 }
 
@@ -359,18 +359,18 @@
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  border: 1px solid #d3e0d6;
+  border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 0 0.85rem;
   transition: border-color 0.2s ease;
 }
 
 .inputWrapper:focus-within {
-  border-color: #143e31;
+  border-color: #c51e1e;
 }
 
 .mailInputIcon {
-  color: #6a8274;
+  color: #6b7280;
   margin-right: 0.55rem;
   flex-shrink: 0;
 }
@@ -382,17 +382,17 @@
   background: transparent;
   padding: 0.65rem 0;
   font-size: 0.85rem;
-  color: #14281f;
+  color: #111827;
   font-family: var(--font-body);
 }
 
 .emailInput::placeholder {
-  color: #8c9e93;
+  color: #9ca3af;
 }
 
 .subscribeBtn {
   width: 100%;
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -405,15 +405,15 @@
 }
 
 .subscribeBtn:hover {
-  background-color: #1b5342;
-  box-shadow: 0 4px 12px rgba(20, 62, 49, 0.2);
+  background-color: #991b1b;
+  box-shadow: 0 4px 12px rgba(197, 30, 30, 0.2);
 }
 
 .successNotice {
   padding: 0.75rem;
-  background-color: #eaf6ee;
+  background-color: #fef2f2;
   border-radius: 8px;
-  color: #17633e;
+  color: #991b1b;
   font-size: 0.825rem;
   font-weight: 600;
   text-align: center;
@@ -421,8 +421,8 @@
 
 /* Sidebar Card 3: Popular Tags */
 .tagsCard {
-  background-color: #f8faf8;
-  border: 1px solid #e1ebe2;
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
   border-radius: 16px;
   padding: 1.6rem 1.5rem;
 }
@@ -437,8 +437,8 @@
   display: inline-block;
   padding: 0.35rem 0.85rem;
   border-radius: 9999px;
-  background-color: #eaf3ec;
-  color: #1b543c;
+  background-color: #f3f4f6;
+  color: #374151;
   font-size: 0.775rem;
   font-weight: 600;
   border: 1px solid transparent;
@@ -448,21 +448,21 @@
 }
 
 .tagChip:hover {
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   transform: translateY(-1px);
 }
 
 .tagChipActive {
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
 }
 
 /* Sidebar Card 4: Quote Card */
 .quoteCard {
   position: relative;
-  background-color: #f3f7f3;
-  border: 1px solid #deebdf;
+  background-color: #fef2f2;
+  border: 1px solid #fee2e2;
   border-radius: 16px;
   padding: 1.85rem 1.65rem;
   overflow: hidden;
@@ -472,7 +472,7 @@
   font-family: var(--font-editorial);
   font-size: 3.2rem;
   line-height: 1;
-  color: #1f6b49;
+  color: #c51e1e;
   margin-bottom: 0.25rem;
   display: block;
 }
@@ -482,7 +482,7 @@
   font-size: 1.15rem;
   font-style: italic;
   line-height: 1.45;
-  color: #162c21;
+  color: #111827;
   margin-bottom: 0.75rem;
   position: relative;
   z-index: 2;
@@ -492,7 +492,7 @@
   font-family: var(--font-body);
   font-size: 0.8rem;
   font-weight: 600;
-  color: #4b6656;
+  color: #6b7280;
   position: relative;
   z-index: 2;
 }

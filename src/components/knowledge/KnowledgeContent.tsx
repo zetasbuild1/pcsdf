@@ -66,7 +66,7 @@ export const ARTICLES: ArticleItem[] = [
     title: "The Nine Regenerative Pillars: A Continuum of Action",
     description:
       "Operationalizing retention, conservation, restoration, regeneration, circularity, mitigation, adaptation, transformation, and climate justice.",
-    image: "/images/pcsdf/IMG_2768-1024x576.jpeg",
+    image: "/images/reforestation.jpg",
     href: "#nine-regenerative-pillars-guide",
   },
   {

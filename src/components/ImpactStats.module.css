@@ -39,7 +39,7 @@
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #123326;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -47,7 +47,7 @@
   font-family: var(--font-body);
   font-size: 0.875rem;
   line-height: 1.65;
-  color: #4f6357;
+  color: #374151;
   margin-bottom: 1.5rem;
 }
 
@@ -57,13 +57,13 @@
   gap: 0.45rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: all 0.2s ease;
   width: fit-content;
 }
 
 .learnMore:hover {
-  color: #216a4b;
+  color: #991b1b;
   transform: translateX(3px);
 }
 
@@ -87,22 +87,22 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #f1f7f2;
-  color: #1b533a;
+  background-color: #fef2f2;
+  color: #c51e1e;
   margin-bottom: 1.2rem;
   transition: transform 0.2s ease;
 }
 
 .statCard:hover .iconWrapper {
   transform: scale(1.08);
-  background-color: #e5f1e7;
+  background-color: #fee2e2;
 }
 
 .statNumber {
   font-family: var(--font-editorial);
   font-size: 2.75rem;
   font-weight: 700;
-  color: #123326;
+  color: #111827;
   line-height: 1;
   margin-bottom: 0.5rem;
   font-variant-numeric: lining-nums;
@@ -112,7 +112,7 @@
   font-family: var(--font-body);
   font-size: 0.8125rem;
   font-weight: 500;
-  color: #4a5c52;
+  color: #4b5563;
   line-height: 1.35;
 }
 

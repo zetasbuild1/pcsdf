@@ -33,31 +33,36 @@ export default function FocusAreasQuote() {
             {/* Main stem */}
             <path
               d="M30 140C60 110 80 70 110 30"
-              stroke="#9ec2a8"
+              stroke="#fca5a5"
               strokeWidth="2"
               strokeLinecap="round"
             />
             {/* Leaves pairs */}
             <path
               d="M50 120C40 100 50 85 70 95C70 115 55 125 50 120Z"
-              fill="#b5d6be"
+              fill="#f87171"
+              opacity="0.7"
             />
             <path
               d="M70 100C85 90 105 95 100 115C85 115 75 105 70 100Z"
-              fill="#a3cca8"
+              fill="#ef4444"
+              opacity="0.65"
             />
             <path
               d="M75 80C65 60 75 45 95 55C95 75 80 85 75 80Z"
-              fill="#b5d6be"
+              fill="#f87171"
+              opacity="0.7"
             />
             <path
               d="M95 60C110 50 130 55 125 75C110 75 100 65 95 60Z"
-              fill="#a3cca8"
+              fill="#ef4444"
+              opacity="0.65"
             />
             {/* Top leaf */}
             <path
               d="M110 30C105 10 120 10 130 25C130 40 115 45 110 30Z"
-              fill="#88b594"
+              fill="#dc2626"
+              opacity="0.7"
             />
           </svg>
         </div>
@@ -68,7 +73,7 @@ export default function FocusAreasQuote() {
             “Did We Hear the Voices of the Poor at the Turn of the Century? If future generations,
             nature, and the global commons cannot speak for themselves, who will speak for them?”
           </blockquote>
-          <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-emerald-900/80 font-mono">
+          <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-gray-900 font-mono">
             — Chaitri (Chai) N. Hapugalle, Founder &amp; Director
           </p>
         </div>

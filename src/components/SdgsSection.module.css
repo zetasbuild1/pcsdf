@@ -1,7 +1,7 @@
 .sdgsSection {
-  background-color: #fafbfa;
+  background-color: #ffffff;
   padding: 5.5rem 1.5rem;
-  border-bottom: 1px solid #edf2ee;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .container {
@@ -26,7 +26,7 @@
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #123326;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -34,7 +34,7 @@
   font-family: var(--font-body);
   font-size: 0.875rem;
   line-height: 1.65;
-  color: #4f6357;
+  color: #374151;
   margin-bottom: 2rem;
 }
 
@@ -42,7 +42,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #164332;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.65rem 1.5rem;
   border-radius: 9999px;
@@ -53,9 +53,9 @@
 }
 
 .viewSdgsBtn:hover {
-  background-color: #1d5540;
+  background-color: #991b1b;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(22, 67, 50, 0.2);
+  box-shadow: 0 4px 12px rgba(197, 30, 30, 0.25);
 }
 
 .rightCol {
@@ -75,12 +75,12 @@
   gap: 0.4rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: all 0.2s ease;
 }
 
 .viewAllLink:hover {
-  color: #216a4b;
+  color: #991b1b;
   transform: translateX(3px);
 }
 
@@ -163,7 +163,7 @@
   font-size: 0.52rem;
   font-weight: 800;
   letter-spacing: 0.06em;
-  color: #1a3328;
+  color: #111827;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.15;

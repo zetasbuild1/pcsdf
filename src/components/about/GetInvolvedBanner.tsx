@@ -27,11 +27,11 @@ export default function GetInvolvedBanner() {
       >
         <path
           d="M-20 220C40 160 120 150 180 170C110 130 50 170 -20 220Z"
-          fill="#4ade80"
+          fill="#f87171"
         />
         <path
           d="M-30 170C30 110 110 100 170 120C100 80 40 120 -30 170Z"
-          fill="#22c55e"
+          fill="#ef4444"
         />
       </svg>
 
@@ -44,11 +44,11 @@ export default function GetInvolvedBanner() {
       >
         <path
           d="M220 -20C160 40 150 120 170 180C130 110 170 50 220 -20Z"
-          fill="#4ade80"
+          fill="#f87171"
         />
         <path
           d="M170 -30C110 30 100 110 120 170C80 100 120 40 170 -30Z"
-          fill="#22c55e"
+          fill="#ef4444"
         />
       </svg>
 

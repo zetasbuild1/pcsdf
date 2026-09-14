@@ -1,7 +1,7 @@
 .ctaSection {
   position: relative;
   width: 100%;
-  background: linear-gradient(90deg, #092018 0%, #0d2b20 50%, #113426 100%);
+  background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #b91c1c 100%);
   overflow: hidden;
   padding: 5rem 0;
 }
@@ -13,7 +13,7 @@
   width: 220px;
   height: 220px;
   pointer-events: none;
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 .leafDecorationRight {
@@ -23,7 +23,7 @@
   width: 220px;
   height: 220px;
   pointer-events: none;
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 .container {
@@ -49,7 +49,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6ee7b7;
+  color: #fecaca;
   margin-bottom: 0.6rem;
   display: block;
 }
@@ -67,7 +67,7 @@
   font-family: var(--font-body);
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #c0ded0;
+  color: #fee2e2;
   max-width: 520px;
 }
 
@@ -83,7 +83,7 @@
   align-items: center;
   gap: 0.5rem;
   background-color: #ffffff;
-  color: #143e31;
+  color: #111827;
   padding: 0.7rem 1.65rem;
   border-radius: 9999px;
   font-size: 0.875rem;
@@ -93,7 +93,8 @@
 }
 
 .primaryBtn:hover {
-  background-color: #f0f7f3;
+  background-color: #f9fafb;
+  color: #c51e1e;
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
@@ -102,19 +103,20 @@
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
   color: #ffffff;
   padding: 0.7rem 1.65rem;
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
   transition: all 0.2s ease;
 }
 
 .outlineBtn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #ffffff;
+  color: #111827;
   border-color: #ffffff;
   transform: translateY(-2px);
 }

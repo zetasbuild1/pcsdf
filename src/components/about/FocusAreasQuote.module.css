@@ -1,7 +1,7 @@
 .focusQuoteSection {
   background-color: #ffffff;
   padding: 5.5rem 1.5rem;
-  border-bottom: 1px solid #edf2ee;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .container {
@@ -23,7 +23,7 @@
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #123326;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -31,7 +31,7 @@
   font-family: var(--font-body);
   font-size: 0.8875rem;
   line-height: 1.65;
-  color: #4f6357;
+  color: #374151;
   margin-bottom: 1.75rem;
   max-width: 380px;
 }
@@ -40,7 +40,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  background-color: #164332;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.65rem 1.45rem;
   border-radius: 9999px;
@@ -51,9 +51,9 @@
 }
 
 .exploreBtn:hover {
-  background-color: #1d5540;
+  background-color: #991b1b;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(22, 67, 50, 0.2);
+  box-shadow: 0 4px 12px rgba(197, 30, 30, 0.25);
 }
 
 .centerCol {
@@ -70,7 +70,7 @@
 
 .rightCol {
   padding-left: 2.5rem;
-  border-left: 1.5px solid #e7ece7;
+  border-left: 1.5px solid #e5e7eb;
 }
 
 .quoteText {
@@ -79,7 +79,7 @@
   font-style: italic;
   font-weight: 500;
   line-height: 1.65;
-  color: #1f3b2d;
+  color: #111827;
 }
 
 @media (max-width: 1024px) {

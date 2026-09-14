@@ -33,7 +33,7 @@ export default function WorkMethodology() {
           <h2 className={styles.title}>From Policy to Intergenerational Action</h2>
           <p className={styles.subtitle}>
             Governing sustainability in an era of polycrisis requires more than checklists.
-            Our four-stage framework translates constitutional principles into systemic, measurable stewardship.
+            Our four-stage operational process translates constitutional principles into systemic, measurable stewardship.
           </p>
         </div>
 

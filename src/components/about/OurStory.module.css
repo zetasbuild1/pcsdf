@@ -1,7 +1,7 @@
 .storySection {
   background-color: #ffffff;
   padding: 5.5rem 1.5rem;
-  border-bottom: 1px solid #edf2ee;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .container {
@@ -19,7 +19,7 @@
   aspect-ratio: 4 / 3;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 10px 28px rgba(20, 62, 49, 0.08);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
 }
 
 .storyImage {
@@ -36,7 +36,7 @@
   font-size: 2.45rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #123326;
+  color: #111827;
   margin-bottom: 1.5rem;
 }
 
@@ -44,7 +44,7 @@
   font-family: var(--font-body);
   font-size: 0.8875rem;
   line-height: 1.7;
-  color: #4f6357;
+  color: #374151;
   margin-bottom: 1.25rem;
 }
 

@@ -29,7 +29,7 @@ export const INITIATIVES_DATA: InitiativeItem[] = [
     categoryId: "climate-restoration",
     badgeBg: "#eaf5ee",
     badgeColor: "#17633e",
-    image: "/images/pcsdf/IMG_2768-1024x576.jpeg",
+    image: "/images/marine.jpg",
     pillars: ["Restoration", "Adaptation", "Conservation"],
     sdgs: ["SDG 13", "SDG 14", "SDG 15"],
     description:
@@ -44,7 +44,7 @@ export const INITIATIVES_DATA: InitiativeItem[] = [
     categoryId: "community-peace",
     badgeBg: "#e6f1f8",
     badgeColor: "#17537b",
-    image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
+    image: "/images/pcsdf/IMG_0685-7-768x1024.jpeg",
     pillars: ["Retention", "Climate Justice", "Transformation"],
     sdgs: ["SDG 16", "SDG 17", "SDG 10"],
     description:

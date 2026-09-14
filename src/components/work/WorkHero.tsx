@@ -23,7 +23,7 @@ export default function WorkHero() {
 
       <div className={styles.container}>
         <div className={styles.contentCol}>
-          <span className={styles.tag}>THE PFICF-RSSDF FRAMEWORK</span>
+          <span className={styles.tag}>PEACE-LED SYSTEMIC REGENERATION</span>
           <h1 className={styles.headline}>
             Governing Sustainability<br />
             in an Era of Polycrisis.<br />

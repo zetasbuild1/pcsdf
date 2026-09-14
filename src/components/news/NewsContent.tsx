@@ -35,18 +35,18 @@ export interface NewsCardItem {
 
 export const NEWS_STORIES: NewsCardItem[] = [
   {
-    id: "board-of-peace-inaugural",
+    id: "unfinished-agenda-2030",
     category: "PEACE & GOVERNANCE",
     categoryId: "peace-governance",
     badgeBg: "#e6f1f8",
     badgeColor: "#17537b",
     date: "Feb 20, 2026",
-    title: "Inaugural Meeting of the Board of Peace at US Institute of Peace in Washington, DC",
+    title: "The Unfinished Agenda 2030: Governing Life Across Planetary Systems and Cosmic Commons",
     excerpt:
-      "World leaders and international representatives convened to inaugurate the Board of Peace, focusing on Gaza stabilization and broader systemic conflict transformation.",
-    image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
-    tags: ["#Peacebuilding", "#MultilateralDiplomacy", "#GlobalCommons"],
-    href: "#board-of-peace-inaugural",
+      "Examining the systemic transition from managing siloed development targets to governing interconnected systems in an era of global polycrisis, uniting Brundtland, human rights, and the 17 SDGs.",
+    image: "/images/pcsdf/IMG_2541-1024x1024.jpeg",
+    tags: ["#PlanetaryBoundaries", "#CosmicCommons", "#IntergenerationalStewardship"],
+    href: "#unfinished-agenda-2030",
   },
   {
     id: "multidimensional-poverty-human-security",
@@ -63,32 +63,32 @@ export const NEWS_STORIES: NewsCardItem[] = [
     href: "#multidimensional-poverty-human-security",
   },
   {
-    id: "san-francisco-peace-treaty",
-    category: "PEACE & GOVERNANCE",
+    id: "san-francisco-treaty-principles",
+    category: "PEACE & DIPLOMACY",
     categoryId: "peace-governance",
-    badgeBg: "#e6f1f8",
-    badgeColor: "#17537b",
-    date: "Dec 18, 2025",
-    title: "Historic Antecedents: The San Francisco Peace Treaty & Environmental Diplomacy",
+    badgeBg: "#fcedeb",
+    badgeColor: "#c51e1e",
+    date: "Dec 20, 2025",
+    title: "Historic Peace Accords & The Spirit of San Francisco: 'Hatred Ceases Not by Hatred'",
     excerpt:
-      "Drawing vital lessons from the 1951 San Francisco Peace Conference and J.R. Jayawardene's message of friendship to forge peace-led climate negotiations today.",
-    image: "/images/pcsdf/IMG_2711.jpeg",
-    tags: ["#PeaceAccords", "#Diplomacy", "#HistoricTreaties"],
-    href: "#san-francisco-peace-treaty",
+      "Drawing profound lessons from landmark peace treaties to anchor international climate cooperation and environmental diplomacy in universal compassion and mutual respect.",
+    image: "/images/pcsdf/IMG_0685-7-768x1024.jpeg",
+    tags: ["#SanFranciscoTreaty", "#Diplomacy", "#PeaceBuilding"],
+    href: "#san-francisco-treaty-principles",
   },
   {
-    id: "acled-conflict-tracker-index",
+    id: "planetary-ecosystems-stewardship",
     category: "CLIMATE ACTION",
     categoryId: "climate-action",
     badgeBg: "#fbf3e0",
     badgeColor: "#8b630e",
     date: "Nov 28, 2025",
-    title: "ACLED Conflict Index: Analyzing Intersecting Climate & Conflict Hotspots",
+    title: "Restoration & Climate Justice: Operationalizing the Nine Regenerative Pillars",
     excerpt:
-      "Examining ACLED conflict indicators across deadliness, civilian danger, and geographic diffusion to design targeted ecological stabilization in vulnerable territories.",
-    image: "/images/pcsdf/IMG_2768-1024x576.jpeg",
-    tags: ["#ConflictIndex", "#ACLED", "#ClimateResilience"],
-    href: "#acled-conflict-tracker-index",
+      "Deploying community-rooted retention, conservation, restoration, and circularity architectures to safeguard vulnerable coastal and forest biomes across member states.",
+    image: "/images/reforestation.jpg",
+    tags: ["#RegenerativePillars", "#ClimateJustice", "#EcosystemRestoration"],
+    href: "#planetary-ecosystems-stewardship",
   },
   {
     id: "four-years-pcsdf-journey",
@@ -406,15 +406,15 @@ export default function NewsContent({
               >
                 <path
                   d="M10 90C45 65 70 30 85 5C65 25 35 50 10 90Z"
-                  fill="#78ab88"
+                  fill="#f87171"
                 />
                 <path
                   d="M40 55C55 45 70 35 80 20C65 35 50 48 40 55Z"
-                  fill="#336946"
+                  fill="#dc2626"
                 />
                 <path
                   d="M25 70C40 60 55 50 65 35C50 50 35 62 25 70Z"
-                  fill="#4d855e"
+                  fill="#ef4444"
                 />
               </svg>
             </div>

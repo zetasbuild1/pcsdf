@@ -17,14 +17,14 @@ interface NewsFeaturedStoryProps {
 }
 
 export const DEFAULT_FEATURED_STORY = {
-  id: "board-of-peace-inaugural",
-  category: "PEACE & DIPLOMACY",
+  id: "unfinished-agenda-2030",
+  category: "PEACE & GOVERNANCE",
   date: "Feb 20, 2026",
-  title: "Inaugural Meeting of the Board of Peace at US Institute of Peace in Washington, DC",
+  title: "The Unfinished Agenda 2030: Governing Life Across Planetary Systems and Cosmic Commons",
   excerpt:
-    "Examining the inaugural gathering of the Board of Peace and its far-reaching implications for regional conflict resolution, multilateral diplomacy, and the integration of peace accords into systemic climate and global commons governance.",
-  image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
-  href: "#board-of-peace-inaugural",
+    "Examining the systemic transition from managing siloed development targets to governing interconnected systems in an era of global polycrisis, uniting Brundtland, human rights, and the 17 SDGs.",
+  image: "/images/pcsdf/IMG_2541-1024x1024.jpeg",
+  href: "#unfinished-agenda-2030",
 };
 
 export default function NewsFeaturedStory({

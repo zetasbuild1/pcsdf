@@ -30,18 +30,18 @@
   position: relative;
   font-size: 0.825rem;
   font-weight: 500;
-  color: #37473e;
+  color: #111827;
   transition: color 0.2s ease;
   padding: 0.5rem 0;
   cursor: pointer;
 }
 
 .navItem:hover {
-  color: #143e31;
+  color: #c51e1e;
 }
 
 .activeItem {
-  color: #143e31;
+  color: #c51e1e;
   font-weight: 600;
 }
 
@@ -52,7 +52,7 @@
   transform: translateX(-50%);
   width: 24px;
   height: 2.5px;
-  background-color: #164332;
+  background-color: #c51e1e;
   border-radius: 2px;
 }
 
@@ -66,7 +66,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #164332;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.55rem 1.25rem;
   border-radius: 9999px;
@@ -78,16 +78,16 @@
 }
 
 .supportBtn:hover {
-  background-color: #1b5342;
+  background-color: #991b1b;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(22, 67, 50, 0.2);
+  box-shadow: 0 4px 12px rgba(197, 30, 30, 0.25);
 }
 
 .menuBtn {
   display: none;
   background: none;
   border: none;
-  color: #164332;
+  color: #111827;
   cursor: pointer;
   padding: 0.5rem;
 }
@@ -112,17 +112,17 @@
     gap: 1rem;
     padding: 1.5rem;
     background-color: #ffffff;
-    border-bottom: 1px solid #eef2ee;
+    border-bottom: 1px solid #e5e7eb;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
   }
   .mobileLink {
     font-size: 0.95rem;
     font-weight: 500;
-    color: #37473e;
+    color: #111827;
     padding: 0.4rem 0;
   }
   .mobileLinkActive {
-    color: #164332;
+    color: #c51e1e;
     font-weight: 600;
   }
 }

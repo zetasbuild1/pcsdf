@@ -16,7 +16,8 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  background-color: #edece5;
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
   border-radius: 20px;
   overflow: hidden;
   min-height: 290px;
@@ -38,7 +39,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #245b41;
+  color: #c51e1e;
   margin-bottom: 0.55rem;
   display: block;
 }
@@ -47,7 +48,7 @@
   font-family: var(--font-editorial);
   font-size: clamp(2rem, 3.2vw, 2.75rem);
   font-weight: 600;
-  color: #12281e;
+  color: #111827;
   margin-bottom: 0.85rem;
   letter-spacing: -0.01em;
   line-height: 1.15;
@@ -57,7 +58,7 @@
   font-family: var(--font-body);
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #465b50;
+  color: #4b5563;
   margin-bottom: 2rem;
   max-width: 460px;
 }
@@ -73,39 +74,39 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #143e31;
+  background-color: #c51e1e;
   color: #ffffff;
   padding: 0.65rem 1.6rem;
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
   transition: all 0.2s ease;
-  border: 1.5px solid #143e31;
+  border: 1.5px solid #c51e1e;
 }
 
 .donateBtn:hover {
-  background-color: #1a5342;
-  border-color: #1a5342;
+  background-color: #991b1b;
+  border-color: #991b1b;
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(20, 62, 49, 0.25);
+  box-shadow: 0 4px 14px rgba(197, 30, 30, 0.25);
 }
 
 .partnerBtn {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: #143e31;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #111827;
   padding: 0.65rem 1.6rem;
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1.5px solid #a4bbaa;
+  border: 1.5px solid #e5e7eb;
   transition: all 0.2s ease;
 }
 
 .partnerBtn:hover {
   background-color: #ffffff;
-  border-color: #143e31;
+  border-color: #111827;
   transform: translateY(-1px);
 }
 
@@ -125,7 +126,7 @@
   left: 0;
   bottom: 0;
   width: 140px;
-  background: linear-gradient(90deg, #edece5 0%, transparent 100%);
+  background: linear-gradient(90deg, #fafafa 0%, transparent 100%);
   z-index: 2;
   pointer-events: none;
 }

@@ -9,8 +9,8 @@ export default function OurStory() {
         {/* Left Column: Story Image */}
         <div className={styles.imageWrapper}>
           <Image
-            src="/images/pcsdf/IMG_0685-7-768x1024.jpeg"
-            alt="Chaitri (Chai) N. Hapugalle at Keong Saik Road, Chinatown, Singapore - PCSDF"
+            src="/images/pcsdf/IMG_1614-2.jpeg"
+            alt="PCSDF Origin in Singapore - Company Limited by Guarantee"
             fill
             className={styles.storyImage}
             sizes="(max-width: 1024px) 100vw, 50vw"

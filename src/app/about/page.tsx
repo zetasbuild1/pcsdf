@@ -7,7 +7,6 @@ import OurStory from "@/components/about/OurStory";
 import MissionVisionValues from "@/components/about/MissionVisionValues";
 import FocusAreasQuote from "@/components/about/FocusAreasQuote";
 import AboutPillars from "@/components/about/AboutPillars";
-import AboutImpact from "@/components/about/AboutImpact";
 import TeamAndPartners from "@/components/about/TeamAndPartners";
 import GetInvolvedBanner from "@/components/about/GetInvolvedBanner";
 
@@ -27,7 +26,6 @@ export default function AboutPage() {
         <MissionVisionValues />
         <FocusAreasQuote />
         <AboutPillars />
-        <AboutImpact />
         <TeamAndPartners />
         <GetInvolvedBanner />
       </main>

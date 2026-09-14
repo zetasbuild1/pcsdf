@@ -28,7 +28,7 @@
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #123326;
+  color: #111827;
 }
 
 .viewAll {
@@ -37,12 +37,12 @@
   gap: 0.4rem;
   font-size: 0.825rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: all 0.2s ease;
 }
 
 .viewAll:hover {
-  color: #216a4b;
+  color: #991b1b;
   transform: translateX(3px);
 }
 
@@ -54,7 +54,7 @@
 
 .card {
   background-color: #ffffff;
-  border: 1px solid #e7eee7;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -64,8 +64,8 @@
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(20, 62, 49, 0.08);
-  border-color: #d2e0d4;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
 }
 
 .imageWrapper {
@@ -73,7 +73,7 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background-color: #eef3ee;
+  background-color: #f3f4f6;
 }
 
 .cardImage {
@@ -97,7 +97,7 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #236345;
+  color: #c51e1e;
   margin-bottom: 0.6rem;
 }
 
@@ -106,7 +106,7 @@
   font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.35;
-  color: #143023;
+  color: #111827;
   margin-bottom: 0.65rem;
 }
 
@@ -114,7 +114,7 @@
   font-family: var(--font-body);
   font-size: 0.8125rem;
   line-height: 1.55;
-  color: #53675c;
+  color: #4b5563;
   margin-bottom: 1.25rem;
   flex-grow: 1;
 }
@@ -125,13 +125,13 @@
   gap: 0.4rem;
   font-size: 0.8125rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: all 0.2s ease;
   margin-top: auto;
 }
 
 .cardLink:hover {
-  color: #216a4b;
+  color: #991b1b;
   transform: translateX(3px);
 }
 

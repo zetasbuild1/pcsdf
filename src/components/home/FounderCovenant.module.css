@@ -1,0 +1,124 @@
+.covenantSection {
+  background-color: #ffffff;
+  padding: 5.5rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.covenantCard {
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 3.5rem 3rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.covenantCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #c51e1e;
+}
+
+.quoteSymbol {
+  font-family: var(--font-editorial);
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #fca5a5;
+  margin-bottom: 0.5rem;
+}
+
+.covenantQuote {
+  font-family: var(--font-editorial);
+  font-size: 1.45rem;
+  line-height: 1.6;
+  color: #111827;
+  font-style: italic;
+  margin-bottom: 1.75rem;
+}
+
+.authorName {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.authorTitle {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #c51e1e;
+  margin-top: 0.25rem;
+}
+
+.invitationBox {
+  margin-top: 3.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.inviteTitle {
+  font-family: var(--font-editorial);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.inviteDesc {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: #4b5563;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #c51e1e;
+  color: #ffffff;
+  padding: 0.85rem 2.25rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ctaBtn:hover {
+  background-color: #991b1b;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .covenantSection {
+    padding: 3.5rem 1.25rem;
+  }
+  .covenantCard {
+    padding: 2.25rem 1.5rem;
+  }
+  .covenantQuote {
+    font-size: 1.15rem;
+  }
+  .inviteTitle {
+    font-size: 1.6rem;
+  }
+}

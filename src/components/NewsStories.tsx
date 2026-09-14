@@ -5,9 +5,9 @@ import styles from "./NewsStories.module.css";
 
 const NEWS_ARTICLES = [
   {
-    image: "/images/pcsdf/IMG_2682-5-1024x683.jpeg",
+    image: "/images/pcsdf/IMG_2541-1024x1024.jpeg",
     date: "Feb 20, 2026",
-    title: "Inaugural Meeting of the Board of Peace at US Institute of Peace in Washington, DC",
+    title: "Earth-to-Orbit Governance: Advancing Planetary & Cosmic Commons Stewardship",
     href: "/news",
   },
   {
@@ -23,9 +23,9 @@ const NEWS_ARTICLES = [
     href: "/news",
   },
   {
-    image: "/images/pcsdf/IMG_2711.jpeg",
+    image: "/images/community.jpg",
     date: "Nov 12, 2025",
-    title: "ACLED Conflict Index & Vulnerable Commons: Lessons from Landmark Peace Accords",
+    title: "Indigenous Wisdom and Faith Traditions in Climate Resilience & Peacebuilding",
     href: "/news",
   },
 ];

@@ -12,11 +12,8 @@ export default function PcsdfLogo({
   size = "md",
 }: PcsdfLogoProps) {
   const isLight = variant === "light";
-  const textColor = isLight ? "#ffffff" : "#143e31";
-  const subtextColor = isLight ? "#9ab4a7" : "#4e6357";
-  const emblemGold = "#d4a343";
-  const emblemGreen = isLight ? "#4ade80" : "#22774e";
-  const emblemDeepGreen = isLight ? "#22c55e" : "#144e33";
+  const textColor = isLight ? "#ffffff" : "#111827";
+  const subtextColor = isLight ? "#d1d5db" : "#4b5563";
 
   const scale = size === "sm" ? 0.8 : size === "lg" ? 1.2 : 1;
 
@@ -25,13 +22,13 @@ export default function PcsdfLogo({
       className={`inline-flex items-center gap-2.5 select-none ${className}`}
       style={{ transform: `scale(${scale})`, transformOrigin: "left center" }}
     >
-      {/* Official Emblem Image from pcsdf.org */}
+      {/* Official Peace Dove Emblem */}
       <img
-        src="/images/pcsdf/cropped-Logo-4-1.jpg"
-        alt="PCSDF Official Emblem"
+        src={isLight ? "/images/pcsdf/pcsdf-dove-white.png" : "/images/pcsdf/pcsdf-dove-red.png"}
+        alt="PCSDF Peace Dove Emblem"
         width="44"
-        height="44"
-        className="shrink-0 w-11 h-11 rounded-full object-cover shadow-sm border border-emerald-900/10"
+        height="42"
+        className="shrink-0 h-10 w-auto object-contain"
       />
 
       {/* Brand Text */}

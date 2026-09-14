@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ImpactStats from "@/components/ImpactStats";
+import FounderIntro from "@/components/home/FounderIntro";
+import UnfinishedAgenda from "@/components/home/UnfinishedAgenda";
 import SevenPillars from "@/components/SevenPillars";
 import FeaturedInitiatives from "@/components/FeaturedInitiatives";
 import SdgsSection from "@/components/SdgsSection";
-import NewsStories from "@/components/NewsStories";
+import FounderCovenant from "@/components/home/FounderCovenant";
 import Partners from "@/components/Partners";
 import Footer from "@/components/Footer";
 
@@ -15,11 +16,12 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <ImpactStats />
+        <FounderIntro />
+        <UnfinishedAgenda />
         <SevenPillars />
         <FeaturedInitiatives />
         <SdgsSection />
-        <NewsStories />
+        <FounderCovenant />
         <Partners />
       </main>
       <Footer />

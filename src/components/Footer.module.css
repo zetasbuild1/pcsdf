@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  background-color: #0b241c;
+  background-color: #0f172a;
   color: #ffffff;
   overflow: hidden;
   padding-top: 5rem;
@@ -13,7 +13,7 @@
   width: 220px;
   height: 220px;
   pointer-events: none;
-  opacity: 0.18;
+  opacity: 0.12;
 }
 
 .leafDecorationRight {
@@ -23,7 +23,7 @@
   width: 240px;
   height: 240px;
   pointer-events: none;
-  opacity: 0.18;
+  opacity: 0.12;
 }
 
 .container {
@@ -54,7 +54,7 @@
 
 .footerLink {
   font-size: 0.825rem;
-  color: #a4c2b2;
+  color: #9ca3af;
   transition: color 0.2s ease, transform 0.2s ease;
   width: fit-content;
 }
@@ -73,7 +73,7 @@
 .socialTitle {
   font-size: 0.825rem;
   font-weight: 600;
-  color: #d1e5db;
+  color: #f3f4f6;
   margin-bottom: 1rem;
 }
 
@@ -97,8 +97,8 @@
 }
 
 .socialIconBtn:hover {
-  background-color: #1e533e;
-  border-color: #388a68;
+  background-color: #c51e1e;
+  border-color: #c51e1e;
   transform: translateY(-2px);
   color: #ffffff;
 }
@@ -121,7 +121,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.7rem;
-  color: #648272;
+  color: #9ca3af;
 }
 
 .developerLink {
@@ -134,7 +134,7 @@
 
 .copyright {
   font-size: 0.75rem;
-  color: #82a392;
+  color: #9ca3af;
 }
 
 .motto {
@@ -142,12 +142,12 @@
   align-items: center;
   gap: 0.6rem;
   font-size: 0.75rem;
-  color: #82a392;
+  color: #d1d5db;
   letter-spacing: 0.03em;
 }
 
 .leafIcon {
-  color: #55a878;
+  color: #ef4444;
 }
 
 @media (max-width: 1024px) {

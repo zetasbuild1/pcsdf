@@ -10,7 +10,7 @@ import {
   Zap,
   Scale,
 } from "lucide-react";
-import styles from "../SevenPillars.module.css";
+import styles from "./AboutPillars.module.css";
 
 const PILLARS = [
   {
@@ -71,7 +71,7 @@ const PILLARS = [
 
 export default function AboutPillars() {
   return (
-    <section className={styles.pillarsSection} style={{ backgroundColor: "#ffffff" }}>
+    <section className={styles.pillarsSection}>
       <div className={styles.container}>
         <div className={styles.header}>
           <span className="section-tag">REGENERATIVE SUSTAINABILITY PILLARS</span>
@@ -79,7 +79,7 @@ export default function AboutPillars() {
             The Nine Pillars: An Operational Continuum
           </h2>
           <p className={styles.subtitle}>
-            At the practical level, the PCSDF framework uses a set of regenerative pillars
+            At the practical level, PCSDF implements a set of regenerative pillars
             as a consistent continuum of action across sectors and scales — moving beyond
             traditional checklists into a constitutional operating system.
           </p>

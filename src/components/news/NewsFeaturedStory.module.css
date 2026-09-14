@@ -2,7 +2,7 @@
   display: flex;
   background-color: #ffffff;
   border-radius: 16px;
-  border: 1px solid #e2ebe4;
+  border: 1px solid #e5e7eb;
   overflow: hidden;
   margin-bottom: 3rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
@@ -11,14 +11,14 @@
 
 .featuredCard:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(20, 62, 49, 0.08);
+  box-shadow: 0 10px 30px rgba(197, 30, 30, 0.08);
 }
 
 .imageCol {
   position: relative;
   width: 48%;
   min-height: 320px;
-  background-color: #e5ece5;
+  background-color: #f3f4f6;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -54,8 +54,8 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  background-color: #eaf5ee;
-  color: #17633e;
+  background-color: #fef2f2;
+  color: #c51e1e;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
 }
@@ -65,12 +65,12 @@
   align-items: center;
   gap: 0.35rem;
   font-size: 0.75rem;
-  color: #7b8e84;
+  color: #6b7280;
   font-weight: 500;
 }
 
 .calendarIcon {
-  color: #6a8274;
+  color: #9ca3af;
 }
 
 .headline {
@@ -78,21 +78,21 @@
   font-size: clamp(1.4rem, 2vw, 1.85rem);
   font-weight: 700;
   line-height: 1.25;
-  color: #12281e;
+  color: #111827;
   margin-bottom: 0.85rem;
   letter-spacing: -0.01em;
   transition: color 0.2s ease;
 }
 
 .featuredCard:hover .headline {
-  color: #1b6343;
+  color: #c51e1e;
 }
 
 .excerpt {
   font-family: var(--font-body);
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #55675c;
+  color: #4b5563;
   margin-bottom: 1.5rem;
 }
 
@@ -102,14 +102,14 @@
   gap: 0.45rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #143e31;
+  color: #c51e1e;
   transition: gap 0.2s ease, color 0.2s ease;
   align-self: flex-start;
 }
 
 .readMore:hover {
   gap: 0.7rem;
-  color: #1e704b;
+  color: #991b1b;
 }
 
 @media (max-width: 900px) {
