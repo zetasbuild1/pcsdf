@@ -18,11 +18,6 @@
   --font-script: var(--font-script), "Caveat", "Brush Script MT", "Dancing Script", cursive;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 html {
   scroll-behavior: smooth;
@@ -39,11 +34,14 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, .font-serif {
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.font-serif {
   font-family: var(--font-editorial);
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  color: var(--color-text-main);
 }
 
 a {
